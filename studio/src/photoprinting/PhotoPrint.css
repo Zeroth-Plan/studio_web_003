@@ -1,0 +1,40 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.print-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background:url(../img/or.jpg);
+    object-fit:fill;
+}
+.ro4{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 200px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+}
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.b {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg10n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.b .container {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}

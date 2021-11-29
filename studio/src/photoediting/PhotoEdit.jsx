@@ -1,63 +1,24 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
-import './Frame.css'
+import './PhotoEdit.css'
 
-class Frame extends Component {
+class Photoedit extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Nav Bar Start */}
-                {/* <div className="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand">
-                        Mi<span>la</span>ns
-                    </a>
-                    <button
-                        type="button"
-                        className="navbar-toggler"
-                        data-toggle="collapse"
-                        data-target="#navbarCollapse"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div
-                        className="collapse navbar-collapse justify-content-between"
-                        id="navbarCollapse"
-                    >
-                        <div className="navbar-nav ml-auto">
-                        <a href="#" className="nav-item nav-link">
-                            Home
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Shop
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Products
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            About
-                        </a>
-                        <a href="#" className="nav-item nav-link active">
-                            Login
-                        </a>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Nav Bar End */}
-                {/* Page Header Start */}
-                <div className="page-header">
+                 {/* Page Header Start */}
+                 <div className="edit-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
                     <div className="container">
-                    <div className="rowi">
+                    <div className="rowin">
                         <div className="col-12">
-                        <h2>Frames</h2>
+                        <h2>Photo Editing</h2>
                         </div>
                         <div className="col-12">
                         <a href>Home</a>
-                        <a href>Frames</a>
+                        <a href>Photo Editing</a>
                         </div>
                     </div>
                     </div>
@@ -77,12 +38,14 @@ class Frame extends Component {
                         <div className="col-12">
                         <ul id="class-filter">
                             <li data-filter="*" className="filter-active">
-                            Mount
+                            Retouching
                             </li>
-                            <li data-filter=".filter-1">Frame Types</li>
-                            <li data-filter=".filter-2">Albums</li>
-                            <li data-filter=".filter-3">Fancy frames</li>
-                            <li data-filter=".filter-4"> Laminating Types</li>
+                            <li data-filter=".filter-1">Resizing</li>
+                            <li data-filter=".filter-2">Patch removal</li>
+                            <li data-filter=".filter-3">Photo collage</li>
+                            <li data-filter=".filter-4">Black and White colour</li>
+                            <li data-filter=".filter-5">Photo collage</li>
+                            
                         </ul>
                         </div>
                     </div>
@@ -279,7 +242,7 @@ class Frame extends Component {
                 {/* Class End */}
                 {/* Discount Start */}
                 <div
-                    className="discount wow zoomIn"
+                    className="dis wow zoomIn"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
@@ -302,64 +265,10 @@ class Frame extends Component {
                     </div>
                 </div>
                 {/* Discount End */}
-                                {/* Footer Start */}
-                                <Footer/>
-                {/* <div className="footer wow fadeIn" data-wow-delay="0.3s">
-                    <div className="container-fluid">
-                    <div className="container">
-                        <div className="footer-info">
-                        <a href="index.html" className="footer-logo">
-                            Mi<span>la</span>ns
-                        </a> */}
-                        {/* <h3>123 Street, New York, USA</h3> */}
-                        {/* <div className="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div> */}
-                        {/* <div className="footer-social">
-                            <a href>
-                            <i className="fab fa-twitter" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-youtube" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-instagram" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-linkedin-in" />
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="container copyright">
-                        <div className="row">
-                        <div className="col-md-6">
-                            <p>
-                            © <a href="#">Milans Studio</a>, All Right Reserved.
-                            </p>
-                        </div>
-                        <div className="col-md-6">
-                            <p>
-                            Designed By <a href="#">ZerothPlan</a>
-                            </p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Footer End */}
-                
-                {/* <a href="#" className="back-to-top">
-                    <i className="fa fa-chevron-up" />
-                </a> */}
-            
+                <Footer/>
             </div>
         );
     }
 }
 
-export default Frame;
+export default Photoedit;

@@ -1,63 +1,24 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
-import './Frame.css'
+import './Laser.css'
 
-class Frame extends Component {
+class Laser extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Nav Bar Start */}
-                {/* <div className="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand">
-                        Mi<span>la</span>ns
-                    </a>
-                    <button
-                        type="button"
-                        className="navbar-toggler"
-                        data-toggle="collapse"
-                        data-target="#navbarCollapse"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div
-                        className="collapse navbar-collapse justify-content-between"
-                        id="navbarCollapse"
-                    >
-                        <div className="navbar-nav ml-auto">
-                        <a href="#" className="nav-item nav-link">
-                            Home
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Shop
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Products
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            About
-                        </a>
-                        <a href="#" className="nav-item nav-link active">
-                            Login
-                        </a>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Nav Bar End */}
                 {/* Page Header Start */}
-                <div className="page-header">
+                <div className="laser-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
                     <div className="container">
-                    <div className="rowi">
+                    <div className="ro2">
                         <div className="col-12">
-                        <h2>Frames</h2>
+                        <h2>Laser</h2>
                         </div>
                         <div className="col-12">
                         <a href>Home</a>
-                        <a href>Frames</a>
+                        <a href>Laser</a>
                         </div>
                     </div>
                     </div>
@@ -77,12 +38,15 @@ class Frame extends Component {
                         <div className="col-12">
                         <ul id="class-filter">
                             <li data-filter="*" className="filter-active">
-                            Mount
+                            Trophy
                             </li>
-                            <li data-filter=".filter-1">Frame Types</li>
-                            <li data-filter=".filter-2">Albums</li>
+                            <li data-filter=".filter-1">Acrylic</li>
+                            <li data-filter=".filter-2">Acrylic boxes</li>
                             <li data-filter=".filter-3">Fancy frames</li>
-                            <li data-filter=".filter-4"> Laminating Types</li>
+                            <li data-filter=".filter-4">Wooden engravings</li>
+                            <li data-filter=".filter-5">Keytags</li>
+                            <li data-filter=".filter-6">Acrylic photo stand</li>
+                            <li data-filter=".filter-7">Name boards</li>
                         </ul>
                         </div>
                     </div>
@@ -93,7 +57,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/f.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy1.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -124,7 +88,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/a.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy2.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -155,7 +119,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/b.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy3.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -186,7 +150,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/c.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy4.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -217,7 +181,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/d.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy5.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -248,7 +212,7 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/e.jpg" alt="Image" />
+                            <img src="assets/img/trophy/trophy6.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -279,7 +243,7 @@ class Frame extends Component {
                 {/* Class End */}
                 {/* Discount Start */}
                 <div
-                    className="discount wow zoomIn"
+                    className="bef wow zoomIn"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
@@ -302,64 +266,10 @@ class Frame extends Component {
                     </div>
                 </div>
                 {/* Discount End */}
-                                {/* Footer Start */}
-                                <Footer/>
-                {/* <div className="footer wow fadeIn" data-wow-delay="0.3s">
-                    <div className="container-fluid">
-                    <div className="container">
-                        <div className="footer-info">
-                        <a href="index.html" className="footer-logo">
-                            Mi<span>la</span>ns
-                        </a> */}
-                        {/* <h3>123 Street, New York, USA</h3> */}
-                        {/* <div className="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div> */}
-                        {/* <div className="footer-social">
-                            <a href>
-                            <i className="fab fa-twitter" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-youtube" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-instagram" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-linkedin-in" />
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="container copyright">
-                        <div className="row">
-                        <div className="col-md-6">
-                            <p>
-                            © <a href="#">Milans Studio</a>, All Right Reserved.
-                            </p>
-                        </div>
-                        <div className="col-md-6">
-                            <p>
-                            Designed By <a href="#">ZerothPlan</a>
-                            </p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Footer End */}
-                
-                {/* <a href="#" className="back-to-top">
-                    <i className="fa fa-chevron-up" />
-                </a> */}
-            
+                <Footer/>
             </div>
         );
     }
 }
 
-export default Frame;
+export default Laser;

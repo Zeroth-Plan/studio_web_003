@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Footer from '../footer/Footer';
+import Navigation from '../navigation/Navigation';
 import './Product.css'
 class Product extends Component {
     render() {
         return (
             <div>
+                <Navigation/>
                 {/* Nav Bar Start */}
-                <div className="navbar navbar-expand-lg bg-dark navbar-dark">
+                {/* <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                     <div className="container-fluid">
                     <a href="index.html" className="navbar-brand">
                         Mi<span>la</span>ns
@@ -41,12 +44,12 @@ class Product extends Component {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
                 {/* Nav Bar End */}
                 {/* Page Header Start */}
                 <div className="pag-header">
                     <div className="container">
-                    <div className="row">
+                    <div className="ro5">
                         {/* <div className="col-12">
                         <h2>Frames</h2>
                         </div>
@@ -397,19 +400,20 @@ class Product extends Component {
                 </div>
                 {/* Discount End */}
                 {/* Footer Start */}
-                <div className="foot wow fadeIn" data-wow-delay="0.3s">
+                <Footer/>
+                {/* <div className="foot wow fadeIn" data-wow-delay="0.3s">
                     <div className="container-fluid">
                     <div className="container">
                         <div className="foot-info">
                         <a href="index.html" className="foot-logo">
                             Mi<span>la</span>ns
-                        </a>
+                        </a> */}
                         {/* <h3>123 Street, New York, USA</h3> */}
                         {/* <div className="footer-menu">
                             <p>+012 345 67890</p>
                             <p>info@example.com</p>
                         </div> */}
-                        <div className="foot-social">
+                        {/* <div className="foot-social">
                             <a href>
                             <i className="fab fa-twitter" />
                             </a>
@@ -443,7 +447,7 @@ class Product extends Component {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
                 {/* Footer End */}
             </div>
         )
