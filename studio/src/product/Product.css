@@ -70,14 +70,14 @@
     justify-content: center;
     border-radius: 40px;
     font-size: 16px;
-    color: #F7CAC9;
+    color: #f35413;
     background: #343148;
     opacity: 0;
 }
 
 .team .team-social a:hover {
     color: #343148;
-    background: #F7CAC9;
+    background: #f35413;
 }
 
 
@@ -277,7 +277,7 @@
     background-size: contain;
 }
 
-.disc .container {
+.disc .containerq {
     max-width: 750px;
     height:200px;
     text-align: center;

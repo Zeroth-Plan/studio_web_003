@@ -1,0 +1,89 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.heade {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background:url(../img/upload3.jpg);
+    object-fit:fill;
+}
+.rom{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 385px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+}
+
+/**********
+************
+*************/
+.big{
+    width: 100%;
+    margin-top: 20vh;
+    height:90vh;
+    background-color: rgba(52, 49, 72, .9);
+    display: flex;
+}
+.small{
+    margin-top: 10vh;
+    margin-right: 5vh;
+    width: 50%;
+    padding: 1%;
+    /* width: 60%; */
+    height: 75vh;
+    margin-left: 5vh;
+    background: rgba(255, 255, 255, 0.2);
+    color: beige;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border:1px solid green; */
+}  
+
+.upload{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    width: 80vh;
+    /* width: 60%; */
+    height: 75vh;
+    position: relative;
+    
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border: 1px solid black; */
+}
+
+.boximg{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    height: 10%;
+    border:2px inset  #f35413;
+}
+.formon{
+    padding: 2%;
+}
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.af {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg61n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.af .containers {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}

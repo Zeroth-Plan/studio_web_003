@@ -3,6 +3,83 @@ import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Frame.css'
 
+
+function frameb(){
+    document.getElementById('Im')
+    .src="assets/img/f.jpg" ;
+    document.getElementById('Im1')
+    .src="assets/img/a.jpg" ;
+    document.getElementById('Im2')
+    .src="assets/img/b.jpg";
+    document.getElementById('Im3')
+    .src="assets/img/c.jpg";
+    document.getElementById('Im4')
+    .src="assets/img/d.jpg";
+    document.getElementById('Im5')
+    .src="assets/img/e.jpg";
+    
+};
+function frameb1(){
+    document.getElementById('Im')
+    .src="assets/img/acrylic/acrylic.jpg";
+    document.getElementById('Im1')
+    .src="assets/img/acrylic/acrylic1.jpg";
+    document.getElementById('Im2')
+    .src="assets/img/acrylic/acrylic2.jpg";
+    document.getElementById('Im3')
+    .src="assets/img/acrylic/acrylic3.jpg";
+    document.getElementById('Im4')
+    .src="assets/img/acrylic/acrylic4.jpg";
+    document.getElementById('Im5')
+    .src="assets/img/acrylic/acrylic5.jpg";
+    
+    
+};
+function frameb2(){
+    document.getElementById('Im')
+    .src="assets/img/keytags/keytags.jpg";
+    document.getElementById('Im1')
+    .src="assets/img/keytags/keytags1.jpg";
+    document.getElementById('Im2')
+    .src="assets/img/keytags/keytags2.jpg";
+    document.getElementById('Im3')
+    .src="assets/img/keytags/keytags3.jpg";
+    document.getElementById('Im4')
+    .src="assets/img/keytags/keytags4.jpg";
+    document.getElementById('Im5')
+    .src="assets/img/keytags/keytags5.jpg";
+    
+};
+function frameb3(){
+    document.getElementById('Im')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('Im1')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('Im2')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('Im3')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('Im4')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('Im5')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function frameb4(){
+    document.getElementById('Im')
+    .src="assets/img/event/event.jpg";
+    document.getElementById('Im1')
+    .src="assets/img/event/event1.jpg";
+    document.getElementById('Im2')
+    .src="assets/img/event/event2.jpg";
+    document.getElementById('Im3')
+    .src="assets/img/event/event3.jpg";
+    document.getElementById('Im4')
+    .src="assets/img/event/event4.jpg";
+    document.getElementById('Im5')
+    .src="assets/img/event/event5.png";
+    
+};
 class Frame extends Component {
     render() {
         return (
@@ -50,7 +127,7 @@ class Frame extends Component {
                 {/* Page Header Start */}
                 <div className="page-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="container">
+                    <div className="containery">
                     <div className="rowi">
                         <div className="col-12">
                         <h2>Frames</h2>
@@ -65,7 +142,7 @@ class Frame extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="container">
+                    <div className="containery">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -76,26 +153,27 @@ class Frame extends Component {
                     <div className="row">
                         <div className="col-12">
                         <ul id="class-filter">
-                            <li data-filter="*" className="filter-active">
+                            {/* <li data-filter="*" className="filter-active"> */}
+                            <li data-filter="*" onClick={frameb}>   
                             Mount
                             </li>
-                            <li data-filter=".filter-1">Frame Types</li>
-                            <li data-filter=".filter-2">Albums</li>
-                            <li data-filter=".filter-3">Fancy frames</li>
-                            <li data-filter=".filter-4"> Laminating Types</li>
+                            <li data-filter=".filter-1" onClick={frameb1}>Frame Types</li>
+                            <li data-filter=".filter-2" onClick={frameb2}>Albums</li>
+                            <li data-filter=".filter-3" onClick={frameb3}>Fancy frames</li>
+                            <li data-filter=".filter-4" onClick={frameb4}> Laminating Types</li>
                         </ul>
                         </div>
                     </div>
-                    <div className="row class-container">
+                    <div className="row class-containery">
                         <div
                         className="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp"
                         data-wow-delay="0.0s"
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/f.jpg" alt="Image" />
+                            <img id="Im" src="assets/img/f.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -124,9 +202,9 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/a.jpg" alt="Image" />
+                            <img id="Im1" src="assets/img/a.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -155,9 +233,9 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/b.jpg" alt="Image" />
+                            <img id="Im2" src="assets/img/b.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -186,9 +264,9 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/c.jpg" alt="Image" />
+                            <img id="Im3" src="assets/img/c.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -217,9 +295,9 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/d.jpg" alt="Image" />
+                            <img id="Im4" src="assets/img/d.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -248,9 +326,9 @@ class Frame extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/e.jpg" alt="Image" />
+                            <img id="Im5" src="assets/img/e.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -283,7 +361,7 @@ class Frame extends Component {
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="container">
+                    <div className="containery">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>

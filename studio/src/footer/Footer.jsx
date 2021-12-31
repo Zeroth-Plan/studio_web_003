@@ -6,8 +6,8 @@ class Footer extends Component {
         return (
             <div>
                 <div className="footer wow fadeIn" data-wow-delay="0.3s">
-                    <div className="container-fluid">
-                    <div className="container">
+                    <div className="containerq-fluid">
+                    <div className="containerq">
                         <div className="footer-info">
                         <a href="index.html" className="footer-logo">
                             Mi<span>la</span>ns
@@ -36,7 +36,7 @@ class Footer extends Component {
                         </div>
                         </div>
                     </div>
-                    <div className="container copyright">
+                    <div className="containerq copyright">
                         <div className="row">
                         <div className="col-md-6">
                             <p>

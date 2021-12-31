@@ -3,6 +3,51 @@ import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './PhotoService.css'
 
+function serviceb(){
+    document.getElementById('ser')
+    .src="assets/img/event/event.jpg";
+    document.getElementById('ser1')
+    .src="assets/img/event/event1.jpg" ;
+    document.getElementById('ser2')
+    .src="assets/img/event/event2.jpg";
+    document.getElementById('ser3')
+    .src="assets/img/event/event3.jpg";
+    document.getElementById('ser4')
+    .src="assets/img/event/event4.jpg";
+    document.getElementById('ser5')
+    .src="assets/img/event/event5.png";
+    
+};
+function serviceb1(){
+    document.getElementById('ser')
+    .src="assets/img/product/product.jpg";
+    document.getElementById('ser1')
+    .src="assets/img/product/product1.jpg";
+    document.getElementById('ser2')
+    .src="assets/img/product/product2.jpg";
+    document.getElementById('ser3')
+    .src="assets/img/product/product3.jpg";
+    document.getElementById('ser4')
+    .src="assets/img/product/product4.jpg";
+    document.getElementById('ser5')
+    .src="assets/img/product/product5.jpg";
+    
+};
+function serviceb2(){
+    document.getElementById('ser')
+    .src="assets/img/wedding/wedding.jpg";
+    document.getElementById('ser1')
+    .src="assets/img/wedding/wedding1.jpg";
+    document.getElementById('ser2')
+    .src="assets/img/wedding/wedding2.jpg";
+    document.getElementById('ser3')
+    .src="assets/img/wedding/wedding3.jpg";
+    document.getElementById('ser4')
+    .src="assets/img/wedding/wedding4.jpg";
+    document.getElementById('ser5')
+    .src="assets/img/wedding/wedding5.jpg";
+    
+};
 class Photoservice extends Component {
     render() {
         return (
@@ -11,7 +56,7 @@ class Photoservice extends Component {
                 {/* Page Header Start */}
                 <div className="service-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="container">
+                    <div className="containeru">
                     <div className="ron">
                         <div className="col-12">
                         <h2>Photography Services</h2>
@@ -26,7 +71,7 @@ class Photoservice extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="container">
+                    <div className="containeru">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -37,11 +82,12 @@ class Photoservice extends Component {
                     <div className="row">
                         <div className="col-12">
                         <ul id="class-filter">
-                            <li data-filter="*" className="filter-active">
+                            {/* <li data-filter="*" className="filter-active"> */}
+                            <li data-filter="*" onClick={serviceb}>  
                             Events
                             </li>
-                            <li data-filter=".filter-1">Product photography</li>
-                            <li data-filter=".filter-2">Wedding/Engagements etc</li>
+                            <li data-filter=".filter-1" onClick={serviceb1}>Product photography</li>
+                            <li data-filter=".filter-2" onClick={serviceb2}>Wedding/Engagements etc</li>
                         </ul>
                         </div>
                     </div>
@@ -52,7 +98,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event.jpg"alt="Image" />
+                            <img id="ser" src="assets/img/event/event.jpg"alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -83,7 +129,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event1.jpg" alt="Image" />
+                            <img id="ser1" src="assets/img/event/event1.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -114,7 +160,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event2.jpg" alt="Image" />
+                            <img id="ser2" src="assets/img/event/event2.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -145,7 +191,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event3.jpg" alt="Image" />
+                            <img id="ser3" src="assets/img/event/event3.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -176,7 +222,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event4.jpg" alt="Image" />
+                            <img id="ser4" src="assets/img/event/event4.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -207,7 +253,7 @@ class Photoservice extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/event/event5.png" alt="Image" />
+                            <img id="ser5" src="assets/img/event/event5.png" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -242,7 +288,7 @@ class Photoservice extends Component {
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="container">
+                    <div className="containeru">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>

@@ -69,6 +69,30 @@
     position: relative;
     padding: 45px 0 15px 0;
 }
+.btno{
+    padding: 0;
+    margin: -15px 0 25px 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+.btnq{
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 12px;
+    color: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    background: none;
+    border: 1px solid #343148;
+    transition: .3s;
+}
+.btnq:hover{
+    background: #343148;
+    color: #f35413;
+}
 
 .class #class-filter {
     padding: 0;
@@ -144,14 +168,18 @@
     justify-content: center;
     border-radius: 40px;
     font-size: 16px;
-    color: #F7CAC9;
+    /* color: #F7CAC9;
+    background: #343148; */
+    color: #f35413;
     background: #343148;
     opacity: 0;
 }
 
 .class .class-social a:hover {
+    /* color: #343148;
+    background: #F7CAC9; */
     color: #343148;
-    background: #F7CAC9;
+    background: #f35413;
 }
 
 
@@ -279,7 +307,7 @@
     background-size: contain;
 }
 
-.bef .container {
+.bef .containera {
     max-width: 750px;
     height:200px;
     text-align: center;

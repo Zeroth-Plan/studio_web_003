@@ -33,8 +33,201 @@
     background-size: contain;
 }
 
-.b .container {
+.b .containero {
     max-width: 750px;
     height:200px;
     text-align: center;
 }
+/*************
+****************
+***********/
+.print{
+    width: 100%;
+    margin-top: 20vh;
+    height:90vh;
+    background-color: rgba(52, 49, 72, .9);
+    display: flex;
+}
+.printo{
+    margin-top: 10vh;
+    margin-right: 5vh;
+    width: 50%;
+    padding: 2%;
+    /* width: 60%; */
+    height: 70vh;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border:1px solid green; */
+}
+
+/*************/
+.imageboxe {
+    margin-top: 10vh;
+    margin-left: 5vh;
+    width: 80vh;
+    /* width: 60%; */
+    height: 70vh;
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border: 1px solid black; */
+  }
+  
+  .box5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset  #f35413;
+  }
+  
+  .box6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413;
+  }
+/*********************/
+.dot1 {
+    height: 30px;
+    width: 30px;
+    background-color: #fc8f6d;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot2 {
+    height: 30px;
+    width: 30px;
+    background-color: #e16dfc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    
+  }
+  .dot3 {
+    height: 30px;
+    width: 30px;
+    background-color: #1f7614;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .dot4 {
+    height: 30px;
+    width: 30px;
+    background-color: #29c7ea;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .dot5 {
+    height: 30px;
+    width: 30px;
+    background-color: #d03c3c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .picker{
+      padding-left: 15px;
+  }
+  
+  .one{
+      size: 10px;
+  }
+  /******************/
+  .spicker{
+      display: flex;
+      padding-left: 15px;
+  }
+  .s1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    color: #000;
+    padding: 2px  ;
+    
+  }
+  
+  .s2 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+    
+  }
+  .s3 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s4 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s5 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s6 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s7 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .two{
+    size: 10px;
+  }

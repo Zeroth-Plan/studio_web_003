@@ -23,19 +23,19 @@ class Navigation extends Component {
                         id="navbarCollapse"
                     >
                         <div className="navbar-nav ml-auto">
-                        <a href="#" className="nav-item nav-link">
+                        <a href="/home" className="nav-item nav-link">
                             Home
                         </a>
-                        <a href="#" className="nav-item nav-link">
+                        <a href="/upload" className="nav-item nav-link">
                             Shop
                         </a>
-                        <a href="#" className="nav-item nav-link">
+                        <a href="/product" className="nav-item nav-link">
                             Products
                         </a>
-                        <a href="#" className="nav-item nav-link">
+                        <a href="/mug" className="nav-item nav-link">
                             About
                         </a>
-                        <a href="#" className="nav-item nav-link">
+                        <a href="/login" className="nav-item nav-link">
                             Login
                         </a>
                         </div>

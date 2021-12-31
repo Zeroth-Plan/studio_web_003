@@ -7,7 +7,7 @@
     background: #000000;
 }
 
-.footer .container-fluid {
+.footer .containerq-fluid {
     padding: 90px 0 0 0;
     background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/phn.png);
     background-position: center;

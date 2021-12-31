@@ -326,14 +326,18 @@ a:focus {
     justify-content: center;
     border-radius: 40px;
     font-size: 16px;
-    color: #F7CAC9;
+    /* color: #F7CAC9;
+    background: #343148; */
+    color: #f35413;
     background: #343148;
     opacity: 0;
 }
 
 .class .class-social a:hover {
+    /* color: #343148;
+    background: #F7CAC9; */
     color: #343148;
-    background: #F7CAC9;
+    background: #f35413;
 }
 
 
@@ -461,7 +465,7 @@ a:focus {
     background-size: contain;
 }
 
-.discount .container {
+.discount .containery {
     max-width: 750px;
     height:200px;
     text-align: center;

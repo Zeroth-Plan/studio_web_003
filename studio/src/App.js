@@ -9,47 +9,41 @@ import Flex from './flex/Flex';
 import Laser from './laser/Laser';
 import Services from './services/Services';
 import Photoprint from './photoprinting/PhotoPrint';
+import Home from './home/Home';
+import Login from './login/Login';
+import Signup from './signup/SignUp';
+import Cart from './cart/Cart';
+import Upload from './upload/Upload';
 
-// import{
-//   BrowserRouter as Router,
-//   Routes,
-//   Route
-// }from 'react-router-dom'
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route
+}from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path="/product"> */}
-            {/* <Product/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-            {/* <Frame/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-            {/* <Photoservice/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-            {/* <Mug/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-            {/* <Flex/> */}
-            {/* </Route>
-            <Route path="/frame"> */}
-            {/* <Photoprint/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-             {/* <Services/> */}
-            {/* </Route>
-             <Route path="/frame"> */}
-            <Laser/>
-            {/* </Route>
-            <Route path="/frame"> */}
-            {/* <Photoedit/> */}
-            {/* </Route> 
+          <Route exact path="/login" element={<Login/>}/>
+          <Route exact path="/mug" element={<Mug/>}/>
+          <Route exact path="/frame" element={<Frame/>}/>
+          <Route exact path="/home" element={<Home/>}/>
+          <Route exact path="/product" element={<Product/>}/>
+          <Route exact path="/photoservice" element={<Photoservice/>}/>
+          <Route exact path="/flex" element={<Flex/>}/>
+          <Route exact path="/photoprint" element={<Photoprint/>}/>
+          <Route exact path="/services" element={<Services/>}/>
+          <Route exact path="/laser" element={<Laser/>}/>
+          <Route exact path="/" element={<Signup/>}/>
+          <Route exact path="/cart" element={<Cart/>}/>
+          <Route exact path="/upload" element={<Upload/>}/>
+          <Route exact path="/photoedit" element={<Photoedit/>}/>
+          
         </Routes>
-      </Router> */}
+      </Router>
+      
       
     </div>
   );

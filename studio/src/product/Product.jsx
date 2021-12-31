@@ -7,48 +7,10 @@ class Product extends Component {
         return (
             <div>
                 <Navigation/>
-                {/* Nav Bar Start */}
-                {/* <div className="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand">
-                        Mi<span>la</span>ns
-                    </a>
-                    <button
-                        type="button"
-                        className="navbar-toggler"
-                        data-toggle="collapse"
-                        data-target="#navbarCollapse"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div
-                        className="collapse navbar-collapse justify-content-between"
-                        id="navbarCollapse"
-                    >
-                        <div className="navbar-nav ml-auto">
-                        <a href="#" className="nav-item nav-link">
-                            Home
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Shop
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Products
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            About
-                        </a>
-                        <a href="#" className="nav-item nav-link">
-                            Login
-                        </a>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Nav Bar End */}
+                
                 {/* Page Header Start */}
                 <div className="pag-header">
-                    <div className="container">
+                    <div className="containerq">
                     <div className="ro5">
                         {/* <div className="col-12">
                         <h2>Frames</h2>
@@ -262,7 +224,7 @@ class Product extends Component {
             </div>
                 
              <div className="gnna">
-             <div className="container">
+             <div className="containerq">
                     <div className="row">
                         <div className="col-12">
                         <h2>Frames</h2>
@@ -302,75 +264,7 @@ class Product extends Component {
                 </form>
                 {/***************/}
                 <button type="button" class="btn cart">Add to cart</button>
-                 {/* ************ 
-                 *************/}
-                                    {/* <div className="container">
-                    <div className="row">
-                        <div className="col-lg-2">
-                        <div className="input-group">
-                            <span className="input-group-btn">
-                            <button
-                                type="button"
-                                className="quantity-left-minus btn btn-danger btn-number"
-                                data-type="minus"
-                                data-field
-                            >
-                                <span className="glyphicon glyphicon-minus" />
-                            </button>
-                            </span>
-                            <input
-                            type="text"
-                            id="quantity"
-                            name="quantity"
-                            className="form-control input-number"
-                            defaultValue={10}
-                            min={1}
-                            max={100}
-                            />
-                            <span className="input-group-btn">
-                            <button
-                                type="button"
-                                className="quantity-right-plus btn btn-success btn-number"
-                                data-type="plus"
-                                data-field
-                            >
-                                <span className="glyphicon glyphicon-plus" />
-                            </button>
-                            </span>
-                        </div>
-                        </div>
-                    </div>
-                    </div> */}
-                {/* Upload image input*/}
-                {/* <div className="col-lg-6 mx-auto"> */}
-                {/* <div className="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
-                    <input
-                    id="upload"
-                    type="file"
-                    onchange="readURL(this);"
-                    className="form-control border-0"
-                    />
-                    <label
-                    id="upload-label"
-                    htmlFor="upload"
-                    className="font-weight-light text-muted"
-                    >
-                    Choose file
-                    </label>
-                <div className="input-group-append">
-                    <label
-                        htmlFor="upload"
-                        className="btn btn-light m-0 rounded-pill px-4"
-                    >
-                        {" "}
-                        <i className="fa fa-cloud-upload mr-2 text-muted" />
-                        <small className="text-uppercase font-weight-bold text-muted">
-                        Choose file
-                        </small>
-                    </label>
-                </div> */}
-                {/* </div>  */}
-                {/* </div> */}
+                
             </div> 
             {/* Uploaded image area*/}
         </div>
@@ -380,7 +274,7 @@ class Product extends Component {
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="container">
+                    <div className="containerq">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>

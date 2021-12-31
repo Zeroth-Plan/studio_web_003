@@ -11,7 +11,7 @@ class Flex extends Component {
                 {/* Page Header Start */}
                 <div className="flex-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="container">
+                    <div className="containeri">
                     <div className="ro1">
                         <div className="col-12">
                         <h2>Flex,Banners and Stickers</h2>
@@ -26,7 +26,7 @@ class Flex extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="container">
+                    <div className="containeri">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -244,7 +244,7 @@ class Flex extends Component {
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="container">
+                    <div className="containeri">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>

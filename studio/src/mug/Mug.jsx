@@ -3,6 +3,127 @@ import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Mug.css'
 
+function mugb(){
+    document.getElementById('Imag')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function mugb1(){
+    document.getElementById('Imag')
+    .src="assets/img/acrylic/acrylic.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/acrylic/acrylic1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/acrylic/acrylic2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/acrylic/acrylic3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/acrylic/acrylic4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/acrylic/acrylic5.jpg";
+    
+    
+};
+function mugb2(){
+    document.getElementById('Imag')
+    .src="assets/img/keytags/keytags.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/keytags/keytags1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/keytags/keytags2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/keytags/keytags3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/keytags/keytags4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/keytags/keytags5.jpg";
+    
+};
+function mugb3(){
+    document.getElementById('Imag')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function mugb4(){
+    document.getElementById('Imag')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function mugb5(){
+    document.getElementById('Imag')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function mugb6(){
+    document.getElementById('Imag')
+    .src="assets/img/trophy/trophy1.jpg";
+    document.getElementById('Imag1')
+    .src="assets/img/trophy/trophy2.jpg";
+    document.getElementById('Imag2')
+    .src="assets/img/trophy/trophy3.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/trophy/trophy4.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/trophy/trophy5.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/trophy/trophy6.jpg";
+    
+};
+function mugb7(){
+    document.getElementById('Imag')
+    .src="assets/img/f.jpg" ;
+    document.getElementById('Imag1')
+    .src="assets/img/a.jpg" ;
+    document.getElementById('Imag2')
+    .src="assets/img/b.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/c.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/d.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/e.jpg";
+    
+};
 class Mug extends Component {
     render() {
         return (
@@ -11,7 +132,7 @@ class Mug extends Component {
                 {/* Page Header Start */}
                 <div className="mug-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="container">
+                    <div className="containert">
                     <div className="ro">
                         <div className="col-12">
                         <h2>Photography Services</h2>
@@ -26,7 +147,7 @@ class Mug extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="container">
+                    <div className="containert">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -37,26 +158,27 @@ class Mug extends Component {
                     <div className="row">
                         <div className="col-12">
                         <ul id="class-filter">
-                            <li data-filter="*" className="filter-active">
+                            {/* <li data-filter="*" className="filter-active"> */}
+                            <li data-filter="*" onClick={mugb7}>  
                             Mug printing
                             </li>
-                            <li data-filter=".filter-1">Crystal printing</li>
-                            <li data-filter=".filter-2">Aluminum</li>
-                            <li data-filter=".filter-2">Keytags</li>
-                            <li data-filter=".filter-2">Crystal printing</li>
-                            <li data-filter=".filter-2">Trophy printing</li>
-                            <li data-filter=".filter-2">Clock printing</li>
+                            <li data-filter=".filter-1" onClick={mugb}>Crystal printing</li>
+                            <li data-filter=".filter-2" onClick={mugb1}>Aluminum</li>
+                            <li data-filter=".filter-2" onClick={mugb2}>Keytags</li>
+                            <li data-filter=".filter-2" onClick={mugb3}>Crystal printing</li>
+                            <li data-filter=".filter-2" onClick={mugb6}>Trophy printing</li>
+                            <li data-filter=".filter-2" onClick={mugb5}>Clock printing</li>
                         </ul>
                         </div>
                     </div>
-                    <div className="row class-container">
+                    <div className="row class-containert">
                         <div
                         className="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp"
                         data-wow-delay="0.0s"
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/f.jpg" alt="Image" />
+                            <img id="Imag" src="assets/img/f.jpg" alt="Imag" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -87,7 +209,7 @@ class Mug extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/a.jpg" alt="Image" />
+                            <img id="Imag1" src="assets/img/a.jpg" alt="Imag1" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -118,7 +240,7 @@ class Mug extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/b.jpg" alt="Image" />
+                            <img id="Imag2" src="assets/img/b.jpg" alt="Imag2" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -149,7 +271,7 @@ class Mug extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/c.jpg" alt="Image" />
+                            <img id="Imag3" src="assets/img/c.jpg" alt="Imag3" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -180,7 +302,7 @@ class Mug extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/d.jpg" alt="Image" />
+                            <img id="Imag4" src="assets/img/d.jpg" alt="Imag4" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -211,7 +333,7 @@ class Mug extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/e.jpg" alt="Image" />
+                            <img id="Imag5" src="assets/img/e.jpg" alt="Imag5" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -246,7 +368,7 @@ class Mug extends Component {
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="container">
+                    <div className="containert">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>
