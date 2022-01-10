@@ -16,6 +16,7 @@ function before7(){
     .src="assets/img/fancy/fancy4.jpg";
     document.getElementById('myImage5')
     .src="assets/img/fancy/fancy5.jpg";
+    
       
 };
 function before8(){
@@ -108,6 +109,7 @@ function before13(){
     .src="assets/img/abox/abox5.jpg";
       
 };
+
 class Services extends Component {
     render() {
         return (
@@ -249,8 +251,9 @@ class Services extends Component {
                                 data-wow-delay="0.0s"
                                 >
                                 <div className="class-wrap">
+                                
                                     <div className="class-img" >
-                                    <img id="myImage" src="assets/img/trophy/trophy1.jpg" alt="Image" />
+                                    <img id="myImage" src="assets/img/trophy/trophy1.jpg" alt="Image"/>
                                     <div class="class-social">
                                             <a href="/product"><i class="fab fa-twitter"></i></a>
                                         </div>

@@ -15,14 +15,17 @@ class Home extends Component {
                         <div className="containerw-fluid">
                         <div className="row align-items-center">
                             <div className="col-sm-12 col-md-6" >
-                            <div className="hero-text" >
-                                <h1> Photography Solution For You</h1>
+                            <div className="hero-text wow fadeInUp" data-wow-delay="0.1s" >
+                                <h1> Photography <br></br>Solution For You</h1>
                                 {/* <h1> <span>Photography Solution For You </span></h1> */}
                                 <p>
-                                Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi
-                                ornare velit non. Aliqua metus tortor auctor quis sem.
+                                {/* Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi
+                                ornare velit non. Aliqua metus tortor auctor quis sem. */}
+                                We are a photo booth service provider based in Sri Lanka and we specialize in providing high quality, fun, professional, user friendly and cost effective open air photo booth rental services for your events held island wide.
+                                
                                 </p>
-                                <div className="hero-btn">
+                                {/* <div className="hero-btn"> */}
+                                <div className="hero-btn wow fadeInUp" data-wow-delay="0.9s">
                                 <a className="btn" href>
                                     Join Now
                                 </a>
@@ -73,18 +76,21 @@ class Home extends Component {
                             </div>
                             <div className="about-text">
                                 <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                                {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
                                 nec pretium mi. Curabitur facilisis ornare velit non vulputate.
                                 Aliquam metus tortor, auctor id gravida condimentum, viverra quis
-                                sem.
+                                sem. */}
+                                To us, photography is about storytelling. we’re a different type of photography company.
+                                we’re not here to boast about the hours we spend in Photoshop or our proficiency with special effects.
+                                We’re focused on capturing the story of you and your wedding day. 
+                                
                                 </p>
                                 <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                nec pretium mi. Curabitur facilisis ornare velit non vulputate.
-                                Aliquam metus tortor, auctor id gravida condimentum, viverra quis
-                                sem. Curabitur non nisl nec nisi scelerisque maximus.
+                                The real you, and the real emotions of your wedding day.
+                                We’re passionate about your story, what makes you special and unique. We think photography offers an exceptional opportunity to capture this story, one that is often missed by photographers focused on “cool shots” and “special effects”.
+                                Our goal is to be present, feel the energy, tell your story, and capture what makes you special, unique, quirky, and different. We think you deserve nothing less on your wedding day. don’t you agree?
                                 </p>
-                                <a className="btn" href>
+                                <a className="btn" href="/about">
                                 Learn More
                                 </a>
                             </div>

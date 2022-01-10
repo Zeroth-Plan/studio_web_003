@@ -362,13 +362,14 @@ class Frame extends Component {
                     style={{ marginBottom: 90 }}
                 >
                     <div className="containery">
+                        {/**************/}
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>
                         Get <span>30%</span> Discount for all Classes
                         </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
+                    </div>
+                    <div className="containery discount-text">
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
                         pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
@@ -377,6 +378,7 @@ class Frame extends Component {
                         </p>
                         <a className="btn">Join Now</a>
                     </div> */}
+                    {/***************** */}
                     </div>
                 </div>
                 {/* Discount End */}

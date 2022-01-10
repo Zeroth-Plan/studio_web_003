@@ -55,7 +55,7 @@ class Footer extends Component {
                 {/* Footer End */}
                 
                 <a href="#" className="back-to-top">
-                    <i className="fa fa-chevron-up" />
+                    <i className="fas fa-chevron-circle-right" />
                 </a>
             </div>
         );

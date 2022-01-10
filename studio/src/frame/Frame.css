@@ -469,8 +469,9 @@ a:focus {
     max-width: 750px;
     height:200px;
     text-align: center;
+    
 }
-
+/***************/
 /* .discount .section-header {
     margin-bottom: 20px;
 }

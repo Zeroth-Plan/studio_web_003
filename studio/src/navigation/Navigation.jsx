@@ -26,13 +26,42 @@ class Navigation extends Component {
                         <a href="/home" className="nav-item nav-link">
                             Home
                         </a>
-                        <a href="/upload" className="nav-item nav-link">
+                        {/* <a href="/upload" className="nav-item nav-link">
                             Shop
-                        </a>
+                        </a> */}
+                        <div className="nav-item dropdown">
+                            <a href="/services" className="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </a>
+                            <div className="dropdown-menu">
+                                <a href="/frame" className="dropdown-item">
+                                Frame
+                                </a>
+                                <a href="/photoedit" className="dropdown-item">
+                                Photo Editing
+                                </a>
+                                <a href="/photoprint" className="dropdown-item">
+                                Photo Printing
+                                </a>
+                                <a href="/photoservice" className="dropdown-item">
+                                Photography Service
+                                </a>
+                                <a href="/laser" className="dropdown-item">
+                                Laser
+                                </a>
+                                <a href="/mug" className="dropdown-item">
+                                Mug
+                                </a>
+                                <a href="/flex" className="dropdown-item">
+                                Flex
+                                </a>
+                            </div>
+                            </div>
+                        {/*******************/}
                         <a href="/product" className="nav-item nav-link">
                             Products
                         </a>
-                        <a href="/mug" className="nav-item nav-link">
+                        <a href="/about" className="nav-item nav-link">
                             About
                         </a>
                         <a href="/login" className="nav-item nav-link">
