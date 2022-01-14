@@ -37,11 +37,12 @@ class Photoprint extends Component {
                     <div className="containero">
                             <div className="row">
                                 <div className="col-12">
-                                <h2>Frames</h2>
+                                <h2>Print your photos</h2>
                                 </div>
                                 <div className="col-12">
-                                <p>Revamp your style with the latest designer trends in men’s clothing or 
-                                achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces.</p>
+                                {/* <p>Revamp your style with the latest designer trends in men’s clothing or 
+                                achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces.</p> */}
+                                <p> Upload your photos and get them printed right to your doorstep.</p>
                                 </div>
                             </div>
                             </div>
@@ -78,11 +79,102 @@ class Photoprint extends Component {
                             <div className="s7">3XL</div>
                         </div>
                         {/****************** */}
-                        <div className="custom-file">
+                        <div className="col-12 cbox">
+                        <p>Upload good quality, clear, sharp images. Please avoid uploading low quality photos 
+                           downloaded from social media (Facebook, WhatsApp) for a better print. </p>
+                        <div className="custom-file cf">
                                 <input type="file" className="custom-file-input" id="customFile" />
                                 <label className="custom-file-label" htmlFor="customFile">
                                 Choose file
                                 </label>
+                        </div>
+                        </div>
+                        {/******* */}
+                        <div className="col-12 two tickOption">
+                        <p>Choose a laminating type</p>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault1">
+                            Normal Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Matte Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault3"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Glitter Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault4"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Semi Glitter Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault5"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Velvet Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault6"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Glitter Curve Laminating
+                            </label>
+                        </div>
+                        <div className="form-check">
+                            <input
+                            className="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault7"
+                            defaultChecked
+                            />
+                            <label className="form-check-label" htmlFor="flexRadioDefault2">
+                            Gloss Laminating
+                            </label>
+                        </div>
                         </div>
                         {/******* */}
                         {/* <form>

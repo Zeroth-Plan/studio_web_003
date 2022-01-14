@@ -131,8 +131,8 @@ class Laser extends Component {
                         <h2>Laser</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Laser</a>
+                        <a href="/home">Home</a>
+                        <a href="/laser">Laser</a>
                         </div>
                     </div>
                     </div>

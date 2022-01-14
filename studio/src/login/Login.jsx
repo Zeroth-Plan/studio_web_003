@@ -68,9 +68,12 @@ class Login extends Component {
                               <div className="banner-text">
                                 <h2>Photography</h2>
                                 <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                   do eiusmod tempor incididunt ut labore et dolore magna
-                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation */}
+                                  We are a photo booth service provider based in Sri Lanka and we specialize in providing high quality,
+                                   fun, professional, user friendly and cost effective open air photo booth rental services for your events held island wide.
+
                                 </p>
                               </div>
                             </div>
@@ -85,9 +88,8 @@ class Login extends Component {
                               <div className="banner-text">
                                 <h2>Events</h2>
                                 <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                  do eiusmod tempor incididunt ut labore et dolore magna
-                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                We are a photo booth service provider based in Sri Lanka and we specialize in providing high quality, 
+                                fun, professional, user friendly and cost effective open air photo booth rental services for your events held island wide.
                                 </p>
                               </div>
                             </div>
@@ -102,9 +104,8 @@ class Login extends Component {
                               <div className="banner-text">
                                 <h2>Portrait Photography</h2>
                                 <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                  do eiusmod tempor incididunt ut labore et dolore magna
-                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                We are a photo booth service provider based in Sri Lanka and we specialize in providing high quality, 
+                                fun, professional, user friendly and cost effective open air photo booth rental services for your events held island wide.
                                 </p>
                               </div>
                             </div>

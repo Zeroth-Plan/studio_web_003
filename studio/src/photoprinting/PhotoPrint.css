@@ -6,14 +6,15 @@
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background:url(../img/or.jpg);
+    /* background:url(../img/or.jpg); */
+    background:url(../img/pp4.jpg);
     object-fit:fill;
 }
 .ro4{
     /* position: absolute; */
     /* margin: auto; */
     width: 500px;
-    height: 200px;
+    height: 415px;
     /* background: rgba(255, 255, 255, 0.2);
     box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
     /* object-fit:fill; */
@@ -26,7 +27,8 @@
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg10n.png);
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg10n.png); */
+    background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/pp1n.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +46,7 @@
 .print{
     width: 100%;
     margin-top: 20vh;
-    height:90vh;
+    height:130vh;
     background-color: rgba(52, 49, 72, .9);
     display: flex;
 }
@@ -54,7 +56,8 @@
     width: 50%;
     padding: 2%;
     /* width: 60%; */
-    height: 70vh;
+    /* height: 70vh; */
+    height: 110vh;
     margin-left: auto;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
@@ -65,9 +68,11 @@
 .imageboxe {
     margin-top: 10vh;
     margin-left: 5vh;
-    width: 80vh;
-    /* width: 60%; */
-    height: 70vh;
+    /* width: 80vh; */
+    width: 87vh;
+    /* width: 50%; */
+    /* height: 70vh; */
+    height: 77vh;
     position: relative;
 
     background: rgba(255, 255, 255, 0.2);
@@ -230,4 +235,19 @@
   }
   .two{
     size: 10px;
+  }
+  /**************/
+  .form-check-label{
+    color:#ffff
+  }
+  .tickOption{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .cbox{
+    margin-top: 4%;
+    margin-bottom: 0;
+  }
+  .cf{
+    margin-top: 0;
   }

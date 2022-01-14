@@ -17,8 +17,8 @@ class Flex extends Component {
                         <h2>Flex,Banners and Stickers</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Flex,Banners and Stickers</a>
+                        <a href="/home">Home</a>
+                        <a href="/flex">Flex,Banners and Stickers</a>
                         </div>
                     </div>
                     </div>

@@ -133,8 +133,8 @@ class Frame extends Component {
                         <h2>Frames</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Frames</a>
+                        <a href="/home">Home</a>
+                        <a href="/frame">Frames</a>
                         </div>
                     </div>
                     </div>

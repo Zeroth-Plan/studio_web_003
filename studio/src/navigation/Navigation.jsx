@@ -46,27 +46,41 @@ class Navigation extends Component {
                                 <a href="/photoservice" className="dropdown-item">
                                 Photography Service
                                 </a>
-                                <a href="/laser" className="dropdown-item">
-                                Laser
-                                </a>
-                                <a href="/mug" className="dropdown-item">
-                                Mug
-                                </a>
                                 <a href="/flex" className="dropdown-item">
                                 Flex
                                 </a>
                             </div>
                             </div>
                         {/*******************/}
-                        <a href="/product" className="nav-item nav-link">
+                        <div className="nav-item dropdown">
+                            <a href="/product" className="nav-link dropdown-toggle" data-toggle="dropdown">
                             Products
-                        </a>
+                            </a>
+                            <div className="dropdown-menu">
+                                <a href="/laser" className="dropdown-item">
+                                Laser Works
+                                </a>
+                                <a href="/mug" className="dropdown-item">
+                                Sublimations Items
+                                </a>
+                                <a href="/metal" className="dropdown-item">
+                                Metal
+                                </a>
+                            </div>
+                            </div>
+
+                        {/*******************/}
                         <a href="/about" className="nav-item nav-link">
                             About
                         </a>
                         <a href="/login" className="nav-item nav-link">
                             Login
                         </a>
+                        {/**************/}
+                        <a className="shopping-cart" href="/cart"
+                        className="nav-item nav-link fas fa-shopping-cart" >
+                        </a>
+                        {/*********************/}
                         </div>
                     </div>
                     </div>

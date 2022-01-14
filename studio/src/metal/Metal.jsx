@@ -1,115 +1,86 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
-import './PhotoEdit.css'
+import './Metal.css'
 
-function editb(){
-    document.getElementById('I')
-    .src="assets/img/f.jpg" ;
-    document.getElementById('I1')
-    .src="assets/img/a.jpg" ;
-    document.getElementById('I2')
-    .src="assets/img/b.jpg";
-    document.getElementById('I3')
-    .src="assets/img/c.jpg";
-    document.getElementById('I4')
-    .src="assets/img/d.jpg";
-    document.getElementById('I5')
-    .src="assets/img/e.jpg";
-    
-};
-function editb1(){
-    document.getElementById('I')
+function met(){
+    document.getElementById('Imag')
     .src="assets/img/abox/abox.jpg";
-    document.getElementById('I1')
+    document.getElementById('Imag1')
     .src="assets/img/abox/abox1.jpg";
-    document.getElementById('I2')
+    document.getElementById('Imag2')
     .src="assets/img/abox/abox2.jpg";
-    document.getElementById('I3')
+    document.getElementById('Imag3')
     .src="assets/img/abox/abox3.jpg";
-    document.getElementById('I4')
+    document.getElementById('Imag4')
     .src="assets/img/abox/abox4.jpg";
-    document.getElementById('I5')
+    document.getElementById('Imag5')
     .src="assets/img/abox/abox5.jpg";
     
 };
-function editb2(){
-    document.getElementById('I')
+function met1(){
+    document.getElementById('Imag')
     .src="assets/img/acrylic/acrylic.jpg";
-    document.getElementById('I1')
+    document.getElementById('Imag1')
     .src="assets/img/acrylic/acrylic1.jpg";
-    document.getElementById('I2')
+    document.getElementById('Imag2')
     .src="assets/img/acrylic/acrylic2.jpg";
-    document.getElementById('I3')
+    document.getElementById('Imag3')
     .src="assets/img/acrylic/acrylic3.jpg";
-    document.getElementById('I4')
+    document.getElementById('Imag4')
     .src="assets/img/acrylic/acrylic4.jpg";
-    document.getElementById('I5')
+    document.getElementById('Imag5')
     .src="assets/img/acrylic/acrylic5.jpg";
     
     
 };
-function editb3(){
-    document.getElementById('I')
+function met2(){
+    document.getElementById('Imag')
     .src="assets/img/keytags/keytags.jpg";
-    document.getElementById('I1')
+    document.getElementById('Imag1')
     .src="assets/img/keytags/keytags1.jpg";
-    document.getElementById('I2')
+    document.getElementById('Imag2')
     .src="assets/img/keytags/keytags2.jpg";
-    document.getElementById('I3')
+    document.getElementById('Imag3')
     .src="assets/img/keytags/keytags3.jpg";
-    document.getElementById('I4')
+    document.getElementById('Imag4')
     .src="assets/img/keytags/keytags4.jpg";
-    document.getElementById('I5')
+    document.getElementById('Imag5')
     .src="assets/img/keytags/keytags5.jpg";
     
 };
-function editb4(){
-    document.getElementById('I')
-    .src="assets/img/abox/abox.jpg";
-    document.getElementById('I1')
-    .src="assets/img/abox/abox1.jpg";
-    document.getElementById('I2')
-    .src="assets/img/abox/abox2.jpg";
-    document.getElementById('I3')
-    .src="assets/img/abox/abox3.jpg";
-    document.getElementById('I4')
-    .src="assets/img/abox/abox4.jpg";
-    document.getElementById('I5')
-    .src="assets/img/abox/abox5.jpg";
+
+function met3(){
+    document.getElementById('Imag')
+    .src="assets/img/f.jpg" ;
+    document.getElementById('Imag1')
+    .src="assets/img/a.jpg" ;
+    document.getElementById('Imag2')
+    .src="assets/img/b.jpg";
+    document.getElementById('Imag3')
+    .src="assets/img/c.jpg";
+    document.getElementById('Imag4')
+    .src="assets/img/d.jpg";
+    document.getElementById('Imag5')
+    .src="assets/img/e.jpg";
     
 };
-function editb5(){
-    document.getElementById('I')
-    .src="assets/img/trophy/trophy1.jpg";
-    document.getElementById('I1')
-    .src="assets/img/trophy/trophy2.jpg";
-    document.getElementById('I2')
-    .src="assets/img/trophy/trophy3.jpg";
-    document.getElementById('I3')
-    .src="assets/img/trophy/trophy4.jpg";
-    document.getElementById('I4')
-    .src="assets/img/trophy/trophy5.jpg";
-    document.getElementById('I5')
-    .src="assets/img/trophy/trophy6.jpg";
-    
-};
-class Photoedit extends Component {
+class Metal extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                 {/* Page Header Start */}
-                 <div className="edit-header">
+                {/* Page Header Start */}
+                <div className="metal-header">
                 {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containerd">
-                    <div className="rowin">
+                    <div className="containermtt">
+                    <div className="romt">
                         <div className="col-12">
-                        <h2>Photo Editing</h2>
-                        </div>
+                        <h2>Metal Etching</h2>
+                        </div> 
                         <div className="col-12">
                         <a href="/home">Home</a>
-                        <a href="/photoedit">Photo Editing</a>
+                        <a href ="/metal">Metal Etching</a>
                         </div>
                     </div>
                     </div>
@@ -117,7 +88,7 @@ class Photoedit extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containerd">
+                    <div className="containermtt">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -129,26 +100,24 @@ class Photoedit extends Component {
                         <div className="col-12">
                         <ul id="class-filter">
                             {/* <li data-filter="*" className="filter-active"> */}
-                            <li data-filter="*" onClick={editb}>   
-                            Retouching
+                            <li data-filter="*" onClick={met3}>  
+                            Badges
                             </li>
-                            <li data-filter=".filter-1" onClick={editb1}>Resizing</li>
-                            <li data-filter=".filter-2" onClick={editb2}>Patch removal</li>
-                            <li data-filter=".filter-3" onClick={editb3}>Photo collage</li>
-                            <li data-filter=".filter-4" onClick={editb4}>Black and White colour</li>
-                            <li data-filter=".filter-5" onClick={editb5}>Photo collage</li>
+                            <li data-filter=".filter-1" onClick={met}>Medals</li>
+                            <li data-filter=".filter-2" onClick={met1}>Awards</li>
+                            <li data-filter=".filter-2" onClick={met2}>Souvenirs</li>
                             
                         </ul>
                         </div>
                     </div>
-                    <div className="row class-containerd">
+                    <div className="row class-containermtt">
                         <div
                         className="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp"
                         data-wow-delay="0.0s"
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I" src="assets/img/f.jpg" alt="Image" />
+                            <img id="Imag" src="assets/img/f.jpg" alt="Imag" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -179,7 +148,7 @@ class Photoedit extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I1" src="assets/img/a.jpg" alt="Image" />
+                            <img id="Imag1" src="assets/img/a.jpg" alt="Imag1" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -210,7 +179,7 @@ class Photoedit extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I2" src="assets/img/b.jpg" alt="Image" />
+                            <img id="Imag2" src="assets/img/b.jpg" alt="Imag2" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -241,7 +210,7 @@ class Photoedit extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I3" src="assets/img/c.jpg" alt="Image" />
+                            <img id="Imag3" src="assets/img/c.jpg" alt="Imag3" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -272,7 +241,7 @@ class Photoedit extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I4" src="assets/img/d.jpg" alt="Image" />
+                            <img id="Imag4" src="assets/img/d.jpg" alt="Imag4" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -303,7 +272,7 @@ class Photoedit extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img id="I5" src="assets/img/e.jpg" alt="Image" />
+                            <img id="Imag5" src="assets/img/e.jpg" alt="Imag5" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                 </div>
@@ -334,11 +303,11 @@ class Photoedit extends Component {
                 {/* Class End */}
                 {/* Discount Start */}
                 <div
-                    className="dis wow zoomIn"
+                    className="bemt wow zoomIn"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
-                    <div className="containerd">
+                    <div className="containermtt">
                     {/* <div className="section-header text-center">
                         <p>Awesome Discount</p>
                         <h2>
@@ -363,4 +332,4 @@ class Photoedit extends Component {
     }
 }
 
-export default Photoedit;
+export default Metal;

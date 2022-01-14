@@ -135,11 +135,11 @@ class Mug extends Component {
                     <div className="containert">
                     <div className="ro">
                         <div className="col-12">
-                        <h2>Photography Services</h2>
+                        <h2>Sublimations Items</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Photography Services</a>
+                        <a href="/home">Home</a>
+                        <a href="/mug">Sublimations Items</a>
                         </div>
                     </div>
                     </div>

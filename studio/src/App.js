@@ -21,6 +21,7 @@ import{
   Route
 }from 'react-router-dom'
 import About from './about/About';
+import Metal from './metal/Metal';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route exact path="/upload" element={<Upload/>}/>
           <Route exact path="/photoedit" element={<Photoedit/>}/>
           <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/metal" element={<Metal/>}/>
           
         </Routes>
       </Router>

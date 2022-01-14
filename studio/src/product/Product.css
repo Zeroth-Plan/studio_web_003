@@ -7,7 +7,8 @@
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background:url(../img/framew.jpg);
+    /* background:url(../img/framew.jpg); */
+    background:url(../img/frame13.jpg);
     object-fit:fill;
 }
 .ro5{

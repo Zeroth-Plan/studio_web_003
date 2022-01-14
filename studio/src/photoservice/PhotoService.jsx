@@ -62,8 +62,8 @@ class Photoservice extends Component {
                         <h2>Photography Services</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Photography Services</a>
+                        <a href="/home">Home</a>
+                        <a href="/photoservice">Photography Services</a>
                         </div>
                     </div>
                     </div>
