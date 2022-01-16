@@ -180,7 +180,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag" src="assets/img/f.jpg" alt="Imag" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -211,7 +215,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag1" src="assets/img/a.jpg" alt="Imag1" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -242,7 +250,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag2" src="assets/img/b.jpg" alt="Imag2" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -273,7 +285,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag3" src="assets/img/c.jpg" alt="Imag3" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -304,7 +320,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag4" src="assets/img/d.jpg" alt="Imag4" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -335,7 +355,11 @@ class Mug extends Component {
                             <div className="class-img">
                             <img id="Imag5" src="assets/img/e.jpg" alt="Imag5" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

@@ -348,27 +348,32 @@ a:focus {
 
 .class .class-wrap:hover .class-social a:first-child {
     opacity: 1;
-    margin-top: 0;
-    transition: .3s 0s;
-}
-
-/* .team .team-item:hover .team-social a:nth-child(2) {
+    margin-top: 0; 
     opacity: 1;
     margin-top: 0;
     transition: .3s .1s;
 }
 
-.team .team-item:hover .team-social a:nth-child(3) {
+.class .class-wrap:hover .class-social a:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+.class .class-wrap:hover .class-social a:nth-child(3) {
     opacity: 1;
     margin-top: 0;
     transition: .3s .2s;
 }
 
-.team .team-item:hover .team-social a:nth-child(4) {
+.class .class-wrap:hover .class-social a:nth-child(4) {
     opacity: 1;
     margin-top: 0;
     transition: .3s .3s;
-} */
+}
+    
+
+
+
 
 .class .class-text {
     position: relative;

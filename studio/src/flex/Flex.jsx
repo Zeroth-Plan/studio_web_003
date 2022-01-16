@@ -56,7 +56,10 @@ class Flex extends Component {
                             <div className="class-img">
                             <img src="assets/img/flex/flex.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -88,6 +91,9 @@ class Flex extends Component {
                             <img src="assets/img/flex/flex1.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -119,6 +125,9 @@ class Flex extends Component {
                             <img src="assets/img/flex/flex2.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -150,6 +159,9 @@ class Flex extends Component {
                             <img src="assets/img/flex/flex3.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -181,6 +193,9 @@ class Flex extends Component {
                             <img src="assets/img/flex/flex4.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -212,6 +227,9 @@ class Flex extends Component {
                             <img src="assets/img/flex/flex5.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

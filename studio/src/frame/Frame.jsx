@@ -173,7 +173,11 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im" src="assets/img/f.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -204,7 +208,10 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im1" src="assets/img/a.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -235,7 +242,10 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im2" src="assets/img/b.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -266,7 +276,11 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im3" src="assets/img/c.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -297,7 +311,11 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im4" src="assets/img/d.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    {/* <a href="/product"><i class="fas fa-chevron-circle-right"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -328,7 +346,11 @@ class Frame extends Component {
                             <div className="class-img">
                             <img id="Im5" src="assets/img/e.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
+                                    {/* <a href="/product"><i class="fas fa-chevron-circle-right"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

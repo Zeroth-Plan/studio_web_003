@@ -150,7 +150,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I" src="assets/img/f.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -181,7 +185,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I1" src="assets/img/a.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -212,7 +220,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I2" src="assets/img/b.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -243,7 +255,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I3" src="assets/img/c.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -274,7 +290,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I4" src="assets/img/d.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -305,7 +325,11 @@ class Photoedit extends Component {
                             <div className="class-img">
                             <img id="I5" src="assets/img/e.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

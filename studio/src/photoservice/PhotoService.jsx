@@ -71,7 +71,7 @@ class Photoservice extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containeru">
+                    <div className="container">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -88,6 +88,9 @@ class Photoservice extends Component {
                             </li>
                             <li data-filter=".filter-1" onClick={serviceb1}>Product photography</li>
                             <li data-filter=".filter-2" onClick={serviceb2}>Wedding/Engagements etc</li>
+                            <a className="btn" href="/contact">
+                                Contact Us
+                                </a>
                         </ul>
                         </div>
                     </div>
@@ -100,7 +103,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser" src="assets/img/event/event.jpg"alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -131,7 +138,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser1" src="assets/img/event/event1.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -162,7 +173,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser2" src="assets/img/event/event2.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -193,7 +208,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser3" src="assets/img/event/event3.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -224,7 +243,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser4" src="assets/img/event/event4.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -255,7 +278,11 @@ class Photoservice extends Component {
                             <div className="class-img">
                             <img id="ser5" src="assets/img/event/event5.png" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

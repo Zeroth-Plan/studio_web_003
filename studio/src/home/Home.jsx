@@ -29,7 +29,7 @@ class Home extends Component {
                                 <a className="btn" href>
                                     Join Now
                                 </a>
-                                <a className="btn" href>
+                                <a className="btn" href="#">
                                     Contact Us
                                 </a>
                                 </div>
@@ -90,6 +90,7 @@ class Home extends Component {
                                 We’re passionate about your story, what makes you special and unique. We think photography offers an exceptional opportunity to capture this story, one that is often missed by photographers focused on “cool shots” and “special effects”.
                                 Our goal is to be present, feel the energy, tell your story, and capture what makes you special, unique, quirky, and different. We think you deserve nothing less on your wedding day. don’t you agree?
                                 </p>
+                                {/* <a className="btn" href="/about"> */}
                                 <a className="btn" href="/about">
                                 Learn More
                                 </a>
@@ -342,7 +343,8 @@ class Home extends Component {
                             {" "}
                             <img
                                 // src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-                                src="assets/img/pf1.jpg"
+                                // src="assets/img/pf1.jpg"
+                                src="assets/img/1.svg"
                                 alt
                                 className="profile"
                             />
@@ -367,7 +369,8 @@ class Home extends Component {
                             <div className="face front-face">
                             {" "}
                             <img
-                                src="assets/img/pf3.jpg"
+                                // src="assets/img/pf3.jpg"
+                                src="assets/img/3.svg"
                                 alt
                                 className="profile"
                             />
@@ -392,7 +395,8 @@ class Home extends Component {
                             <div className="face front-face">
                             {" "}
                             <img
-                                src="assets/img/pf2.jpg"
+                                // src="assets/img/pf2.jpg"
+                                src="assets/img/2.svg"
                                 alt
                                 className="profile"
                             />

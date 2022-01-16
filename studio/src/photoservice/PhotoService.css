@@ -97,7 +97,27 @@
     background: #343148;
     color: #f35413;;
 }
+/***********/
+.class #class-filter a.btn {
+    position: relative;
+    /* margin-top: 15px; */
+    margin: 15px 0 25px 0;
+    /* padding: 12px 20px; */
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f35413;
+    background: #343148;
+    border-radius: 40px;
+    transition: .3s;
+}
 
+.class #class-filter a.btn:hover {
+    color: #343148;
+    background: #f35413;
+}
+/**************/
 .class .class-item {
     position: relative;
     margin-bottom: 30px;
@@ -165,23 +185,23 @@
     transition: .3s 0s;
 }
 
-/* .team .team-item:hover .team-social a:nth-child(2) {
+.class .class-wrap:hover .class-social a:nth-child(2) {
     opacity: 1;
     margin-top: 0;
     transition: .3s .1s;
 }
 
-.team .team-item:hover .team-social a:nth-child(3) {
+.class .class-wrap:hover .class-social a:nth-child(3) {
     opacity: 1;
     margin-top: 0;
     transition: .3s .2s;
 }
 
-.team .team-item:hover .team-social a:nth-child(4) {
+.class .class-wrap:hover .class-social a:nth-child(4) {
     opacity: 1;
     margin-top: 0;
     transition: .3s .3s;
-} */
+}
 
 .class .class-text {
     position: relative;

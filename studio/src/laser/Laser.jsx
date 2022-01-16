@@ -173,7 +173,11 @@ class Laser extends Component {
                             <div className="class-img" >
                             <img id="myImage" src="assets/img/trophy/trophy1.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -194,7 +198,11 @@ class Laser extends Component {
                             <div className="class-img">
                             <img id="myImage1"src="assets/img/trophy/trophy2.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -225,7 +233,11 @@ class Laser extends Component {
                             <div className="class-img">
                             <img id="myImage2"src="assets/img/trophy/trophy3.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -256,7 +268,11 @@ class Laser extends Component {
                             <div className="class-img">
                             <img id="myImage3"src="assets/img/trophy/trophy4.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -287,7 +303,11 @@ class Laser extends Component {
                             <div className="class-img">
                             <img id="myImage4"src="assets/img/trophy/trophy5.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">
@@ -318,7 +338,11 @@ class Laser extends Component {
                             <div className="class-img">
                             <img id="myImage5"src="assets/img/trophy/trophy6.jpg" alt="Image" />
                             <div class="class-social">
-                                    <a href="/product"><i class="fab fa-twitter"></i></a>
+                                    {/* <a href="/product"><i class="fab fa-twitter"></i></a> */}
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div className="class-text">

@@ -22,6 +22,7 @@ import{
 }from 'react-router-dom'
 import About from './about/About';
 import Metal from './metal/Metal';
+import Contact from './contact/Contact';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route exact path="/photoedit" element={<Photoedit/>}/>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/metal" element={<Metal/>}/>
+          <Route exact path="/contact" element={<Contact/>}/>
           
         </Routes>
       </Router>
