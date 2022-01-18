@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
-import './Product.css'
-class Product extends Component {
+import './FrameUp.css'
+
+class Frameup extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                
-                {/* Page Header Start */}
-                <div className="pag-header">
+                 {/* Page Header Start */}
+                 <div className="framesup-header">
                     <div className="containerq">
-                    <div className="ro5">
+                    <div className="roframe">
                         
                     </div>
                     </div>
@@ -36,35 +36,28 @@ class Product extends Component {
              <div className="containerq">
                     <div className="row">
                         <div className="col-12">
-                        <h2>Gift items</h2>
+                        <h2>Frames</h2>
                         </div>
-                        <div className="col-12">
+                        {/* <div className="col-12">
                         <p>Choose the perfect gift for any occasion!</p>
-                        </div>
+                        </div> */}
                     </div>
                     </div>
                   {/************* */}
+                  <div className="ganna2ba">
+                      {/**********/}
+                  <div className="col-12f">
+                        <p>Select frame type</p>
+                        </div>
                   <div className="droupSelec">
                     <select class="form-control">
-                        <option>Mugs</option>
-                        <option>Crystals</option>
-                        <option>Trophies</option>
-                        <option>Clocks</option>
-                        <option>Plates</option>
-                        <option>T-shirts</option>
-                        <option>Caps</option>
-                        <option>Rocks</option>
-                        <option>Tiles </option>
-                        <option>Badges </option>
-                        <option>Rubber seals</option>
-                        <option>Plastic Id cards</option>
-                        <option>Key tags</option>
-                        <option>Wooden Engraving</option>
-                        <option>Wooden Laser photograph</option>
-                        <option>Acrylic boxes</option>
-                        <option>Acrylic photo stands</option>
-                        <option>Name boards</option>
+                        <option> Wooden frames</option>
+                        <option> Liquid frames</option>
+                        <option> Fancy frames</option>
+                        <option> MDF frames</option>
+                        <option> Ply Mount</option>
                         
+                       
                     </select>
                  </div>
                  {/************** */}
@@ -89,12 +82,13 @@ class Product extends Component {
                 {/***************/}
                 <button type="button" class="btn cart">Add to cart</button>
                 
-            </div> 
+            </div>
+            </div>{/*ganna2ba} 
             {/* Uploaded image area*/}
         </div>
                  {/* Discount Start */}
                 <div
-                    className="disc wow zoomIn"
+                    className="dframeup wow zoomIn"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
@@ -105,10 +99,9 @@ class Product extends Component {
                 {/* Discount End */}
                 {/* Footer Start */}
                 <Footer/>
-                
             </div>
-        )
+        );
     }
 }
 
-export default Product;
+export default Frameup;

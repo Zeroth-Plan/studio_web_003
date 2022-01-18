@@ -25,11 +25,13 @@ class About extends Component {
                 </div>
                 {/* Page Header End */}
                               {/* About Start */}
-                <div className="about wow fadeInUp" data-wow-delay="0.1s">
-                        <div className="deflix">
+                <div className="about wow fadeInUp" data-wow-delay="0.3s">
+                        {/* <div className="deflix"> */}
+                        <div className="container ct">
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-md-6">
-                            <div className="about-img">
+                            {/* <div className="about-img"> */}
+                            <div className="about-img wow fadeInUp" data-wow-delay="0.9s">
                                 <img src="assets/img/ppn.png" alt="Image" />
                             </div>
                             </div>
@@ -62,6 +64,7 @@ class About extends Component {
                     {/* Team Start */}
                     <div className="team">
                         <div className="deflix">
+                        {/* <div className="container ctt"> */}
                         <div
                             className="section-header text-center wow zoomIn"
                             data-wow-delay="0.1s"

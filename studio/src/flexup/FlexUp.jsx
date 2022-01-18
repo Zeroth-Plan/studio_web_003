@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
-import './Product.css'
-class Product extends Component {
+import './FlexUp.css'
+
+class Flexup extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                
-                {/* Page Header Start */}
-                <div className="pag-header">
+                 {/* Page Header Start */}
+                 <div className="flexup-header">
                     <div className="containerq">
-                    <div className="ro5">
+                    <div className="ro5flup">
                         
                     </div>
                     </div>
@@ -36,34 +36,26 @@ class Product extends Component {
              <div className="containerq">
                     <div className="row">
                         <div className="col-12">
-                        <h2>Gift items</h2>
+                        <h2> Flex, Banners & Stickers</h2>
                         </div>
-                        <div className="col-12">
+                        {/* <div className="col-12">
                         <p>Choose the perfect gift for any occasion!</p>
-                        </div>
+                        </div> */}
                     </div>
                     </div>
                   {/************* */}
+                  <div className="gnna2b">
+                      {/**********/}
+                  <div className="col-12f">
+                        <p>Select material</p>
+                        </div>
                   <div className="droupSelec">
                     <select class="form-control">
-                        <option>Mugs</option>
-                        <option>Crystals</option>
-                        <option>Trophies</option>
-                        <option>Clocks</option>
-                        <option>Plates</option>
-                        <option>T-shirts</option>
-                        <option>Caps</option>
-                        <option>Rocks</option>
-                        <option>Tiles </option>
-                        <option>Badges </option>
-                        <option>Rubber seals</option>
-                        <option>Plastic Id cards</option>
-                        <option>Key tags</option>
-                        <option>Wooden Engraving</option>
-                        <option>Wooden Laser photograph</option>
-                        <option>Acrylic boxes</option>
-                        <option>Acrylic photo stands</option>
-                        <option>Name boards</option>
+                        <option>Flex printing</option>
+                        <option>Sticker printing</option>
+                        <option>Fabric printing</option>
+                        <option>PV paper printing(plastic)</option>
+                        
                         
                     </select>
                  </div>
@@ -90,11 +82,12 @@ class Product extends Component {
                 <button type="button" class="btn cart">Add to cart</button>
                 
             </div> 
+            </div>{/*gann2b*/}
             {/* Uploaded image area*/}
         </div>
                  {/* Discount Start */}
                 <div
-                    className="disc wow zoomIn"
+                    className="dflexupload wow zoomIn"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: 90 }}
                 >
@@ -105,10 +98,9 @@ class Product extends Component {
                 {/* Discount End */}
                 {/* Footer Start */}
                 <Footer/>
-                
             </div>
-        )
+        );
     }
 }
 
-export default Product;
+export default Flexup;

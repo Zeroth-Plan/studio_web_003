@@ -20,22 +20,22 @@ function before(){
     document.getElementById('message')
     .innerHTML="Hii! GeeksforGeeks people";
 };
-function before1(){
-    document.getElementById('myImage')
-    .src="assets/img/fancy/fancy.png";
-    document.getElementById('myImage1')
-    .src="assets/img/fancy/fancy1.png";
-    document.getElementById('myImage2')
-    .src="assets/img/fancy/fancy2.png";
-    document.getElementById('myImage3')
-    .src="assets/img/fancy/fancy3.jpg";
-    document.getElementById('myImage4')
-    .src="assets/img/fancy/fancy4.jpg";
-    document.getElementById('myImage5')
-    .src="assets/img/fancy/fancy5.jpg";
-    document.getElementById('message')
-    .innerHTML="Hii! GeeksforGeeks people";
-};
+// function before1(){
+//     document.getElementById('myImage')
+//     .src="assets/img/fancy/fancy.png";
+//     document.getElementById('myImage1')
+//     .src="assets/img/fancy/fancy1.png";
+//     document.getElementById('myImage2')
+//     .src="assets/img/fancy/fancy2.png";
+//     document.getElementById('myImage3')
+//     .src="assets/img/fancy/fancy3.jpg";
+//     document.getElementById('myImage4')
+//     .src="assets/img/fancy/fancy4.jpg";
+//     document.getElementById('myImage5')
+//     .src="assets/img/fancy/fancy5.jpg";
+//     document.getElementById('message')
+//     .innerHTML="Hii! GeeksforGeeks people";
+// };
 function before2(){
     document.getElementById('myImage')
     .src="assets/img/wde/wd.jpg";
@@ -140,7 +140,8 @@ class Laser extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containera">
+                    {/* <div className="containera"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -150,7 +151,7 @@ class Laser extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <div className="btno">
+                            {/* <div className="btno">
                             <button className="btnq" onClick>Trophy</button>
                             
                             <button className="btnq"onClick={before6}>Acrylic</button>
@@ -160,8 +161,25 @@ class Laser extends Component {
                             <button className="btnq" onClick={before3}>Keytags</button>
                             <button className="btnq" onClick={before4}>Acrylic photo stand</button>
                             <button className="btnq"onClick={before5}>Name boards</button>
-                            </div>
-    
+                            </div> */}
+                            {/**************/}
+                            <ul id="class-filter">
+                            {/* <li data-filter="*" className="filter-active"> */}
+                            <li data-filter="*" onClick>   
+                            Trophy
+                            </li>
+                            <li data-filter=".filter-1" onClick={before6}>Acrylic</li>
+                            <li data-filter=".filter-2" onClick={before}>Acrylic boxes</li>
+                            {/* <li data-filter=".filter-3" onClick={before1}>Fancy frames</li> */}
+                            <li data-filter=".filter-3" onClick={before2}>Wooden engravings</li>
+                            <li data-filter=".filter-4" onClick={before3}>Keytags</li>
+                            <li data-filter=".filter-5" onClick={before4}>Acrylic photo stand</li>
+                            <li data-filter=".filter-6" onClick={before5}>Name boards</li>
+                            <a className="btn" href="/product">
+                                Upload a Photo
+                                </a>
+                        </ul>
+                            {/**************/}
                         </div>
                     </div>
                     <div className="row class-containera">

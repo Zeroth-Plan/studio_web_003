@@ -147,7 +147,8 @@ class Mug extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containert">
+                    {/* <div className="containert"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -168,6 +169,9 @@ class Mug extends Component {
                             <li data-filter=".filter-2" onClick={mugb3}>Crystal printing</li>
                             <li data-filter=".filter-2" onClick={mugb6}>Trophy printing</li>
                             <li data-filter=".filter-2" onClick={mugb5}>Clock printing</li>
+                            <a className="btn" href="/product">
+                                Upload a Photo
+                                </a>
                         </ul>
                         </div>
                     </div>

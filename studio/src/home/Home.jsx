@@ -62,10 +62,11 @@ class Home extends Component {
                     {/* Hero End */}
                     {/* About Start */}
                     <div className="about wow fadeInUp" data-wow-delay="0.1s">
-                        <div className="containere">
+                        {/* <div className="containere"> */}
+                        <div className="container ct">
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-md-6">
-                            <div className="about-img">
+                            <div className="about-imge ">
                                 <img src="assets/img/about.png" alt="Image" />
                             </div>
                             </div>
@@ -103,6 +104,7 @@ class Home extends Component {
                                         {/* Team Start */}
                     <div className="team">
                         <div className="containerw">
+                        {/* <div className="container ct"> */}
                         <div
                             className="section-header text-center wow zoomIn"
                             data-wow-delay="0.1s"
@@ -327,15 +329,17 @@ class Home extends Component {
                     
                                         {/* Testimonial Start */}
                      <div className="testimonial wow fadeInUp" data-wow-delay="0.1s">
-                        <div className="containerw">
+                        {/* <div className="containerw"> */}
+                        <div className="container ct">
                         <div className="section-header text-center">
                             <p>Testimonial</p>
-                            <h2>Our Client Say!</h2>
+                            <h2>Testimonial!</h2>
                         </div>
                         </div>
                     </div>
                     {/*8888888*/}    
-                                        <div className="container1">
+                                        {/* <div className="container1"> */}
+                                        <div className="container ct">
                     <div className="row">
                         <div className="col-lg-4">
                         <div className="card">

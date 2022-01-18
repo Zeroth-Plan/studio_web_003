@@ -117,7 +117,8 @@ class Photoedit extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containerd">
+                    {/* <div className="containerd"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -136,8 +137,10 @@ class Photoedit extends Component {
                             <li data-filter=".filter-2" onClick={editb2}>Patch removal</li>
                             <li data-filter=".filter-3" onClick={editb3}>Photo collage</li>
                             <li data-filter=".filter-4" onClick={editb4}>Black and White colour</li>
-                            <li data-filter=".filter-5" onClick={editb5}>Photo collage</li>
-                            
+                            <li data-filter=".filter-5" onClick={editb5}>Background changes</li>
+                            <a className="btn" href="/edit">
+                                Upload a Photo
+                                </a>
                         </ul>
                         </div>
                     </div>

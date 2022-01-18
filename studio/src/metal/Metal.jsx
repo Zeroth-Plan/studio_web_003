@@ -88,7 +88,8 @@ class Metal extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containermtt">
+                    {/* <div className="containermtt"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -106,7 +107,9 @@ class Metal extends Component {
                             <li data-filter=".filter-1" onClick={met}>Medals</li>
                             <li data-filter=".filter-2" onClick={met1}>Awards</li>
                             <li data-filter=".filter-2" onClick={met2}>Souvenirs</li>
-                            
+                            <a className="btn" href="/product">
+                                Upload a Photo
+                                </a>
                         </ul>
                         </div>
                     </div>

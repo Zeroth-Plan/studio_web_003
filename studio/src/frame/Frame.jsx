@@ -51,18 +51,32 @@ function frameb2(){
     
 };
 function frameb3(){
+    // document.getElementById('Im')
+    // .src="assets/img/abox/abox.jpg";
+    // document.getElementById('Im1')
+    // .src="assets/img/abox/abox1.jpg";
+    // document.getElementById('Im2')
+    // .src="assets/img/abox/abox2.jpg";
+    // document.getElementById('Im3')
+    // .src="assets/img/abox/abox3.jpg";
+    // document.getElementById('Im4')
+    // .src="assets/img/abox/abox4.jpg";
+    // document.getElementById('Im5')
+    // .src="assets/img/abox/abox5.jpg";
     document.getElementById('Im')
-    .src="assets/img/abox/abox.jpg";
+    .src="assets/img/fancy/fancy.png";
     document.getElementById('Im1')
-    .src="assets/img/abox/abox1.jpg";
+    .src="assets/img/fancy/fancy1.png";
     document.getElementById('Im2')
-    .src="assets/img/abox/abox2.jpg";
+    .src="assets/img/fancy/fancy2.png";
     document.getElementById('Im3')
-    .src="assets/img/abox/abox3.jpg";
+    .src="assets/img/fancy/fancy3.jpg";
     document.getElementById('Im4')
-    .src="assets/img/abox/abox4.jpg";
+    .src="assets/img/fancy/fancy4.jpg";
     document.getElementById('Im5')
-    .src="assets/img/abox/abox5.jpg";
+    .src="assets/img/fancy/fancy5.jpg";
+    
+    
     
 };
 function frameb4(){
@@ -142,7 +156,8 @@ class Frame extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containery">
+                    {/* <div className="containery"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -161,6 +176,9 @@ class Frame extends Component {
                             <li data-filter=".filter-2" onClick={frameb2}>Albums</li>
                             <li data-filter=".filter-3" onClick={frameb3}>Fancy frames</li>
                             <li data-filter=".filter-4" onClick={frameb4}> Laminating Types</li>
+                            <a className="btn" href="/frameup">
+                                Upload a Photo
+                                </a>
                         </ul>
                         </div>
                     </div>

@@ -3,6 +3,83 @@ import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Flex.css'
 
+function fl1(){
+    document.getElementById('f1')
+    .src="assets/img/flex/flex.jpg" ;
+    document.getElementById('f2')
+    .src="assets/img/flex/flex1.jpg";
+    document.getElementById('f3')
+    .src="assets/img/flex/flex2.jpg";
+    document.getElementById('f4')
+    .src="assets/img/flex/flex3.jpg";
+    document.getElementById('f5')
+    .src="assets/img/flex/flex4.jpg";
+    document.getElementById('f6')
+    .src="assets/img/flex/flex5.jpg";
+    
+};
+function fl2(){
+    document.getElementById('f1')
+    .src="assets/img/abox/abox.jpg";
+    document.getElementById('f2')
+    .src="assets/img/abox/abox1.jpg";
+    document.getElementById('f3')
+    .src="assets/img/abox/abox2.jpg";
+    document.getElementById('f4')
+    .src="assets/img/abox/abox3.jpg";
+    document.getElementById('f5')
+    .src="assets/img/abox/abox4.jpg";
+    document.getElementById('f6')
+    .src="assets/img/abox/abox5.jpg";
+    
+};
+function fl3(){
+    document.getElementById('f1')
+    .src="assets/img/acrylic/acrylic.jpg";
+    document.getElementById('f2')
+    .src="assets/img/acrylic/acrylic1.jpg";
+    document.getElementById('f3')
+    .src="assets/img/acrylic/acrylic2.jpg";
+    document.getElementById('f4')
+    .src="assets/img/acrylic/acrylic3.jpg";
+    document.getElementById('f5')
+    .src="assets/img/acrylic/acrylic4.jpg";
+    document.getElementById('f6')
+    .src="assets/img/acrylic/acrylic5.jpg";
+    
+    
+};
+function fl4(){
+    document.getElementById('f1')
+    .src="assets/img/keytags/keytags.jpg";
+    document.getElementById('f2')
+    .src="assets/img/keytags/keytags1.jpg";
+    document.getElementById('f3')
+    .src="assets/img/keytags/keytags2.jpg";
+    document.getElementById('f4')
+    .src="assets/img/keytags/keytags3.jpg";
+    document.getElementById('f5')
+    .src="assets/img/keytags/keytags4.jpg";
+    document.getElementById('f6')
+    .src="assets/img/keytags/keytags5.jpg";
+    
+};
+
+function fl5(){
+    document.getElementById('f1')
+    .src="assets/img/f.jpg" ;
+    document.getElementById('f2')
+    .src="assets/img/a.jpg" ;
+    document.getElementById('f3')
+    .src="assets/img/b.jpg";
+    document.getElementById('f4')
+    .src="assets/img/c.jpg";
+    document.getElementById('f5')
+    .src="assets/img/d.jpg";
+    document.getElementById('f6')
+    .src="assets/img/e.jpg";
+    
+};
 class Flex extends Component {
     render() {
         return (
@@ -26,7 +103,8 @@ class Flex extends Component {
                 {/* Page Header End */}
                 {/* Class Start */}
                 <div className="class">
-                    <div className="containeri">
+                    {/* <div className="containeri"> */}
+                    <div className="container ct">
                     <div
                         className="section-header text-center wow zoomIn"
                         data-wow-delay="0.1s"
@@ -37,13 +115,19 @@ class Flex extends Component {
                     <div className="row">
                         <div className="col-12">
                         <ul id="class-filter">
-                            <li data-filter="*" className="filter-active">
+                            {/* <li data-filter="*" className="filter-active">
+                            Flex printing
+                            </li> */}
+                            <li data-filter="*" onClick={fl1}>
                             Flex printing
                             </li>
-                            <li data-filter=".filter-1">Photo enlargement</li>
-                            <li data-filter=".filter-2">Sticker printing</li>
-                            <li data-filter=".filter-2">Fabric printing</li>
-                            <li data-filter=".filter-2">PV paper printing</li>
+                            <li data-filter=".filter-1"onClick={fl2}>Photo enlargement</li>
+                            <li data-filter=".filter-2"onClick={fl3}>Sticker printing</li>
+                            <li data-filter=".filter-2"onClick={fl4}>Fabric printing</li>
+                            <li data-filter=".filter-2"onClick={fl5}>PV paper printing</li>
+                            <a className="btn" href="/flexup">
+                                Upload a Photo
+                                </a>
                         </ul>
                         </div>
                     </div>
@@ -54,7 +138,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex.jpg" alt="Image" />
+                            <img id="f1" src="assets/img/flex/flex.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -88,7 +172,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex1.jpg" alt="Image" />
+                            <img id="f2" src="assets/img/flex/flex1.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -122,7 +206,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex2.jpg" alt="Image" />
+                            <img id="f3" src="assets/img/flex/flex2.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -156,7 +240,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex3.jpg" alt="Image" />
+                            <img id="f4" src="assets/img/flex/flex3.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -190,7 +274,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex4.jpg" alt="Image" />
+                            <img id="f5" src="assets/img/flex/flex4.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -224,7 +308,7 @@ class Flex extends Component {
                         >
                         <div className="class-wrap">
                             <div className="class-img">
-                            <img src="assets/img/flex/flex5.jpg" alt="Image" />
+                            <img id="f6" src="assets/img/flex/flex5.jpg" alt="Image" />
                             <div class="class-social">
                                     <a href="/product"><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>

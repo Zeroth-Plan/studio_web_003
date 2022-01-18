@@ -133,7 +133,8 @@ class Services extends Component {
                 {/* Page Header End */}
                         {/* Class Start */}
                         <div className="class">
-                            <div className="containera">
+                            {/* <div className="containera"> */}
+                            <div className="container ct">
                             <div
                                 className="section-header text-center wow zoomIn"
                                 data-wow-delay="0.1s"
@@ -231,6 +232,7 @@ class Services extends Component {
                                         </label>
                                     </div>
                                     </div>
+                                    {/* <p>Showing 1003 products</p> */}
                                     {/* <div className="btno">
                                     <button className="btnq" onClick>Frame</button>
                                     
@@ -255,7 +257,7 @@ class Services extends Component {
                                     <div className="class-img" >
                                     <img id="myImage" src="assets/img/trophy/trophy1.jpg" alt="Image"/>
                                     <div class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">
@@ -276,7 +278,7 @@ class Services extends Component {
                                     <div className="class-img">
                                     <img id="myImage1"src="assets/img/trophy/trophy2.jpg" alt="Image" />
                                     <div  class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">
@@ -307,7 +309,7 @@ class Services extends Component {
                                     <div className="class-img">
                                     <img id="myImage2"src="assets/img/trophy/trophy3.jpg" alt="Image" />
                                     <div class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">
@@ -338,7 +340,7 @@ class Services extends Component {
                                     <div className="class-img">
                                     <img id="myImage3"src="assets/img/trophy/trophy4.jpg" alt="Image" />
                                     <div class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">
@@ -369,7 +371,7 @@ class Services extends Component {
                                     <div className="class-img">
                                     <img id="myImage4"src="assets/img/trophy/trophy5.jpg" alt="Image" />
                                     <div class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">
@@ -400,7 +402,7 @@ class Services extends Component {
                                     <div className="class-img">
                                     <img id="myImage5"src="assets/img/trophy/trophy6.jpg" alt="Image" />
                                     <div class="class-social">
-                                            <a href="/product"><i class="fab fa-twitter"></i></a>
+                                            <a href="/product"><i class="fas fa-chevron-circle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="class-text">

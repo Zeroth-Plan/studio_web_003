@@ -23,6 +23,9 @@ import{
 import About from './about/About';
 import Metal from './metal/Metal';
 import Contact from './contact/Contact';
+import Edit from './edit/Edit';
+import Flexup from './flexup/FlexUp';
+import Frameup from './frameup/FrameUp';
 
 function App() {
   return (
@@ -46,6 +49,9 @@ function App() {
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/metal" element={<Metal/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
+          <Route exact path="/edit" element={<Edit/>}/>
+          <Route exact path="/flexup" element={<Flexup/>}/>
+          <Route exact path="/frameup" element={<Frameup/>}/>
           
         </Routes>
       </Router>
