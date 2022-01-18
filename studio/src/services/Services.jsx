@@ -124,8 +124,8 @@ class Services extends Component {
                         <h2>Services</h2>
                         </div>
                         <div className="col-12">
-                        <a href>Home</a>
-                        <a href>Services</a>
+                        <a href="/home">Home</a>
+                        <a href="/services">Services</a>
                         </div>
                     </div>
                     </div>

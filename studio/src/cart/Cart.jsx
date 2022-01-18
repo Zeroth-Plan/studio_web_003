@@ -122,7 +122,7 @@ class Cart extends Component {
                             </select>{" "}
                             </div>
                             {/*************** */}
-                            <div className="optionbox">
+                            {/* <div className="optionbox">
                             {" "}
                             <select>
                                 <option>Shipping Option</option>
@@ -130,7 +130,8 @@ class Cart extends Component {
                                 <option>Option 2</option>
                                 <option>Option 3</option>
                             </select>{" "}
-                            </div>
+                            </div> */}
+                            <button type="button" class="btn paynow">Pay Now</button>
                             </div>
                             {/**************/}
                             <div className="left">

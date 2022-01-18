@@ -26,12 +26,13 @@ class Home extends Component {
                                 </p>
                                 {/* <div className="hero-btn"> */}
                                 <div className="hero-btn wow fadeInUp" data-wow-delay="0.9s">
-                                <a className="btn" href>
+                                <a className="btn" href="/login">
                                     Join Now
                                 </a>
-                                <a className="btn" href="#">
+                                <a className="btn" href="/contact">
                                     Contact Us
                                 </a>
+                                
                                 </div>
                             </div>
                             </div>
@@ -103,7 +104,7 @@ class Home extends Component {
                     {/* About End */}
                                         {/* Team Start */}
                     <div className="team">
-                        <div className="containerw">
+                        <div className="containerdt">
                         {/* <div className="container ct"> */}
                         <div
                             className="section-header text-center wow zoomIn"

@@ -188,8 +188,10 @@ class Photoprint extends Component {
                             </div>
                         </form> */}
                         {/***************/}
-                        <button type="button" class="btn cart">Add to cart</button>
-                        
+                        {/* <button type="button" class="btn cart">Add to cart</button> */}
+                        <a className="btn cart" href="/cart">
+                                Add to cart
+                                </a>
                     </div> 
                 </div>
                 {/************** */}

@@ -13,7 +13,7 @@
     /* position: absolute; */
     /* margin: auto; */
     width: 500px;
-    height: 385px;
+    height: 416px;
     /* background: rgba(255, 255, 255, 0.2);
     box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
     /* object-fit:fill; */
@@ -193,5 +193,25 @@
 }
 .orderb:hover{
     
+    color: #f35413;
+}
+.paynow{
+    cursor: pointer;
+    display: inline-block;
+    /* margin: 5px; */
+    margin-left: 80px;
+    padding: 6px 12px;
+    color: white;
+    background: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    
+    /* background: none; */
+    border: 1px solid #343148;
+    transition: .3s;
+    width: 70%;
+}
+.paynow:hover{
     color: #f35413;
 }
