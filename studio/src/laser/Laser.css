@@ -121,7 +121,12 @@
     background: #343148;
     color: #f35413;;
 }
-
+/************/
+.class #class-filter li a:hover {
+    background: #343148;
+    color: #f35413;;
+}
+/************/
 .class .class-item {
     position: relative;
     margin-bottom: 30px;

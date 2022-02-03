@@ -95,9 +95,15 @@
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
     background: #343148;
-    color: #f35413;;
+    color: #f35413;
 }
-
+/************/
+.class #class-filter li a:hover,
+.class #class-filter li a.filter-active {
+    background: #343148;
+    color: #f35413;
+}
+/***************/
 .class .class-item {
     position: relative;
     margin-bottom: 30px;
@@ -181,6 +187,11 @@
     opacity: 1;
     margin-top: 0;
     transition: .3s .3s;
+}
+.class .class-wrap:hover .class-social a:nth-child(5) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .4s;
 }
 
 .class .class-text {

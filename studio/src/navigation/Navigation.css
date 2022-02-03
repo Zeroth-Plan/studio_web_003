@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #F7CAC9;
+    color: #f35413;;
     outline: none;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #F7CAC9;
+    background: #f35413;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -58,7 +58,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #F7CAC9;
+    color: #f35413;
 }
 
 .back-to-top i {

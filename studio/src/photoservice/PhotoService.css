@@ -98,6 +98,12 @@
     color: #f35413;;
 }
 /***********/
+.class #class-filter li a:hover,
+.class #class-filter li a.filter-active {
+    background: #343148;
+    color: #f35413;;
+}
+/***********/
 .class #class-filter a.btn {
     position: relative;
     /* margin-top: 15px; */
