@@ -1,120 +1,18 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
+import Photoebottom from './Photoebottom';
 import './PhotoEdit.css'
+import Photoehead from './Photoehead';
 
-// function editb(){
-//     document.getElementById('I')
-//     .src="assets/img/f.jpg" ;
-//     document.getElementById('I1')
-//     .src="assets/img/a.jpg" ;
-//     document.getElementById('I2')
-//     .src="assets/img/b.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/c.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/d.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/e.jpg";
-    
-// };
-// function editb1(){
-//     document.getElementById('I')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('I1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('I2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function editb2(){
-//     document.getElementById('I')
-//     .src="assets/img/acrylic/acrylic.jpg";
-//     document.getElementById('I1')
-//     .src="assets/img/acrylic/acrylic1.jpg";
-//     document.getElementById('I2')
-//     .src="assets/img/acrylic/acrylic2.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/acrylic/acrylic3.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/acrylic/acrylic4.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/acrylic/acrylic5.jpg";
-    
-    
-// };
-// function editb3(){
-//     document.getElementById('I')
-//     .src="assets/img/keytags/keytags.jpg";
-//     document.getElementById('I1')
-//     .src="assets/img/keytags/keytags1.jpg";
-//     document.getElementById('I2')
-//     .src="assets/img/keytags/keytags2.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/keytags/keytags3.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/keytags/keytags4.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/keytags/keytags5.jpg";
-    
-// };
-// function editb4(){
-//     document.getElementById('I')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('I1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('I2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function editb5(){
-//     document.getElementById('I')
-//     .src="assets/img/trophy/trophy1.jpg";
-//     document.getElementById('I1')
-//     .src="assets/img/trophy/trophy2.jpg";
-//     document.getElementById('I2')
-//     .src="assets/img/trophy/trophy3.jpg";
-//     document.getElementById('I3')
-//     .src="assets/img/trophy/trophy4.jpg";
-//     document.getElementById('I4')
-//     .src="assets/img/trophy/trophy5.jpg";
-//     document.getElementById('I5')
-//     .src="assets/img/trophy/trophy6.jpg";
-    
-// };
+
 class Photoedit extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                 {/* Page Header Start */}
-                 <div className="edit-header">
-                {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containerd">
-                    <div className="rowin">
-                        <div className="col-12">
-                        <h2>Photo Editing</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/photoedit">Photo Editing</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
+                <Photoehead/>
+                 
                 {/* Class Start */}
                 <div id='retouching' className="class">
                     {/* <div className="containerd"> */}
@@ -1634,32 +1532,8 @@ class Photoedit extends Component {
                     </div>
                 </div>
                 {/* Class End */}
-                {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="dis wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containerd">
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    </div>
-                </div>
-                {/* Discount End */}
+                
+                <Photoebottom/>
                 <Footer/>
             </div>
         );

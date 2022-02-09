@@ -27,6 +27,7 @@ import Edit from './edit/Edit';
 import Flexup from './flexup/FlexUp';
 import Frameup from './frameup/FrameUp';
 
+
 function App() {
   return (
     <div className="App">
@@ -52,6 +53,7 @@ function App() {
           <Route exact path="/edit" element={<Edit/>}/>
           <Route exact path="/flexup" element={<Flexup/>}/>
           <Route exact path="/frameup" element={<Frameup/>}/>
+          
           
         </Routes>
       </Router>

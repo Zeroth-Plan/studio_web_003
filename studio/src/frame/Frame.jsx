@@ -2,108 +2,18 @@ import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Frame.css'
+import Framebottom from './Framebottom';
+import Frameheader from './FrameHeader';
 
 
-// function frameb(){
-//     document.getElementById('Im')
-//     .src="assets/img/f.jpg" ;
-//     document.getElementById('Im1')
-//     .src="assets/img/a.jpg" ;
-//     document.getElementById('Im2')
-//     .src="assets/img/b.jpg";
-//     document.getElementById('Im3')
-//     .src="assets/img/c.jpg";
-//     document.getElementById('Im4')
-//     .src="assets/img/d.jpg";
-//     document.getElementById('Im5')
-//     .src="assets/img/e.jpg";
-    
-// };
-// function frameb1(){
-//     document.getElementById('Im')
-//     .src="assets/img/acrylic/acrylic.jpg";
-//     document.getElementById('Im1')
-//     .src="assets/img/acrylic/acrylic1.jpg";
-//     document.getElementById('Im2')
-//     .src="assets/img/acrylic/acrylic2.jpg";
-//     document.getElementById('Im3')
-//     .src="assets/img/acrylic/acrylic3.jpg";
-//     document.getElementById('Im4')
-//     .src="assets/img/acrylic/acrylic4.jpg";
-//     document.getElementById('Im5')
-//     .src="assets/img/acrylic/acrylic5.jpg";
-    
-    
-// };
-// function frameb2(){
-//     document.getElementById('Im')
-//     .src="assets/img/keytags/keytags.jpg";
-//     document.getElementById('Im1')
-//     .src="assets/img/keytags/keytags1.jpg";
-//     document.getElementById('Im2')
-//     .src="assets/img/keytags/keytags2.jpg";
-//     document.getElementById('Im3')
-//     .src="assets/img/keytags/keytags3.jpg";
-//     document.getElementById('Im4')
-//     .src="assets/img/keytags/keytags4.jpg";
-//     document.getElementById('Im5')
-//     .src="assets/img/keytags/keytags5.jpg";
-    
-// };
-// function frameb3(){
-//     document.getElementById('Im')
-//     .src="assets/img/fancy/fancy.png";
-//     document.getElementById('Im1')
-//     .src="assets/img/fancy/fancy1.png";
-//     document.getElementById('Im2')
-//     .src="assets/img/fancy/fancy2.png";
-//     document.getElementById('Im3')
-//     .src="assets/img/fancy/fancy3.jpg";
-//     document.getElementById('Im4')
-//     .src="assets/img/fancy/fancy4.jpg";
-//     document.getElementById('Im5')
-//     .src="assets/img/fancy/fancy5.jpg";
-    
-    
-    
-// };
-// function frameb4(){
-//     document.getElementById('Im')
-//     .src="assets/img/event/event.jpg";
-//     document.getElementById('Im1')
-//     .src="assets/img/event/event1.jpg";
-//     document.getElementById('Im2')
-//     .src="assets/img/event/event2.jpg";
-//     document.getElementById('Im3')
-//     .src="assets/img/event/event3.jpg";
-//     document.getElementById('Im4')
-//     .src="assets/img/event/event4.jpg";
-//     document.getElementById('Im5')
-//     .src="assets/img/event/event5.png";
-    
-// };
+
 class Frame extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
+                <Frameheader/>
                 
-                {/* Page Header Start */}
-                <div className="page-header">
-                {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containery">
-                    <div className="rowi">
-                        <div className="col-12">
-                        <h2>Frames</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/frame">Frames</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
                 {/* Class Start */}
                 <div id='mounto' className="class">
                     {/* <div className="containery"> */}
@@ -1355,89 +1265,12 @@ class Frame extends Component {
                 </div>
                 {/* Class End */}
                 {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="discount wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containery">
-                        {/**************/}
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div>
-                    <div className="containery discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    {/***************** */}
-                    </div>
-                </div>
-                {/* Discount End */}
-                                {/* Footer Start */}
-                                <Footer/>
-                {/* <div className="footer wow fadeIn" data-wow-delay="0.3s">
-                    <div className="container-fluid">
-                    <div className="container">
-                        <div className="footer-info">
-                        <a href="index.html" className="footer-logo">
-                            Mi<span>la</span>ns
-                        </a> */}
-                        {/* <h3>123 Street, New York, USA</h3> */}
-                        {/* <div className="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div> */}
-                        {/* <div className="footer-social">
-                            <a href>
-                            <i className="fab fa-twitter" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-youtube" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-instagram" />
-                            </a>
-                            <a href>
-                            <i className="fab fa-linkedin-in" />
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="container copyright">
-                        <div className="row">
-                        <div className="col-md-6">
-                            <p>
-                            © <a href="#">Milans Studio</a>, All Right Reserved.
-                            </p>
-                        </div>
-                        <div className="col-md-6">
-                            <p>
-                            Designed By <a href="#">ZerothPlan</a>
-                            </p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                {/* Footer End */}
+                <Framebottom/>
                 
-                {/* <a href="#" className="back-to-top">
-                    <i className="fa fa-chevron-up" />
-                </a> */}
-            
-            </div>
+                                <Footer/>
+               
+                
+                </div>
         );
     }
 }

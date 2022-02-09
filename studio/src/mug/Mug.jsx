@@ -2,149 +2,16 @@ import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Mug.css'
+import Mugbottom from './Mugbottom';
+import Mughead from './Mughead';
 
-// function mugb(){
-//     document.getElementById('Imag')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function mugb1(){
-//     document.getElementById('Imag')
-//     .src="assets/img/acrylic/acrylic.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/acrylic/acrylic1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/acrylic/acrylic2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/acrylic/acrylic3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/acrylic/acrylic4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/acrylic/acrylic5.jpg";
-    
-    
-// };
-// function mugb2(){
-//     document.getElementById('Imag')
-//     .src="assets/img/keytags/keytags.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/keytags/keytags1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/keytags/keytags2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/keytags/keytags3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/keytags/keytags4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/keytags/keytags5.jpg";
-    
-// };
-// function mugb3(){
-//     document.getElementById('Imag')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function mugb4(){
-//     document.getElementById('Imag')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function mugb5(){
-//     document.getElementById('Imag')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function mugb6(){
-//     document.getElementById('Imag')
-//     .src="assets/img/trophy/trophy1.jpg";
-//     document.getElementById('Imag1')
-//     .src="assets/img/trophy/trophy2.jpg";
-//     document.getElementById('Imag2')
-//     .src="assets/img/trophy/trophy3.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/trophy/trophy4.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/trophy/trophy5.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/trophy/trophy6.jpg";
-    
-// };
-// function mugb7(){
-//     document.getElementById('Imag')
-//     .src="assets/img/f.jpg" ;
-//     document.getElementById('Imag1')
-//     .src="assets/img/a.jpg" ;
-//     document.getElementById('Imag2')
-//     .src="assets/img/b.jpg";
-//     document.getElementById('Imag3')
-//     .src="assets/img/c.jpg";
-//     document.getElementById('Imag4')
-//     .src="assets/img/d.jpg";
-//     document.getElementById('Imag5')
-//     .src="assets/img/e.jpg";
-    
-// };
+
 class Mug extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Page Header Start */}
-                <div className="mug-header">
-                {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containert">
-                    <div className="ro">
-                        <div className="col-12">
-                        <h2>Sublimations Items</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/mug">Sublimations Items</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
+                <Mughead/>
                 {/* Class Start */}
                 <div id='mugo' className="class">
                     {/* <div className="containert"> */}
@@ -1923,32 +1790,7 @@ class Mug extends Component {
                     </div>
                 </div>
                 {/* Class End */}
-                {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="befor wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containert">
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    </div>
-                </div>
-                {/* Discount End */}
+               <Mugbottom/>
                 <Footer/>
             </div>
         );

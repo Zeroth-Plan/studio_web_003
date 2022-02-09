@@ -2,105 +2,17 @@ import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Flex.css'
+import Flexbottom from './Flexbottom';
+import Flexhead from './Flexhead';
 
-// function fl1(){
-//     document.getElementById('f1')
-//     .src="assets/img/flex/flex.jpg" ;
-//     document.getElementById('f2')
-//     .src="assets/img/flex/flex1.jpg";
-//     document.getElementById('f3')
-//     .src="assets/img/flex/flex2.jpg";
-//     document.getElementById('f4')
-//     .src="assets/img/flex/flex3.jpg";
-//     document.getElementById('f5')
-//     .src="assets/img/flex/flex4.jpg";
-//     document.getElementById('f6')
-//     .src="assets/img/flex/flex5.jpg";
-    
-// };
-// function fl2(){
-//     document.getElementById('f1')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('f2')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('f3')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('f4')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('f5')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('f6')
-//     .src="assets/img/abox/abox5.jpg";
-    
-// };
-// function fl3(){
-//     document.getElementById('f1')
-//     .src="assets/img/acrylic/acrylic.jpg";
-//     document.getElementById('f2')
-//     .src="assets/img/acrylic/acrylic1.jpg";
-//     document.getElementById('f3')
-//     .src="assets/img/acrylic/acrylic2.jpg";
-//     document.getElementById('f4')
-//     .src="assets/img/acrylic/acrylic3.jpg";
-//     document.getElementById('f5')
-//     .src="assets/img/acrylic/acrylic4.jpg";
-//     document.getElementById('f6')
-//     .src="assets/img/acrylic/acrylic5.jpg";
-    
-    
-// };
-// function fl4(){
-//     document.getElementById('f1')
-//     .src="assets/img/keytags/keytags.jpg";
-//     document.getElementById('f2')
-//     .src="assets/img/keytags/keytags1.jpg";
-//     document.getElementById('f3')
-//     .src="assets/img/keytags/keytags2.jpg";
-//     document.getElementById('f4')
-//     .src="assets/img/keytags/keytags3.jpg";
-//     document.getElementById('f5')
-//     .src="assets/img/keytags/keytags4.jpg";
-//     document.getElementById('f6')
-//     .src="assets/img/keytags/keytags5.jpg";
-    
-// };
 
-// function fl5(){
-//     document.getElementById('f1')
-//     .src="assets/img/f.jpg" ;
-//     document.getElementById('f2')
-//     .src="assets/img/a.jpg" ;
-//     document.getElementById('f3')
-//     .src="assets/img/b.jpg";
-//     document.getElementById('f4')
-//     .src="assets/img/c.jpg";
-//     document.getElementById('f5')
-//     .src="assets/img/d.jpg";
-//     document.getElementById('f6')
-//     .src="assets/img/e.jpg";
-    
-// };
+
 class Flex extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Page Header Start */}
-                <div className="flex-header">
-                {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containeri">
-                    <div className="ro1">
-                        <div className="col-12">
-                        <h2>Flex,Banners and Stickers</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/flex">Flex,Banners and Stickers</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
+                <Flexhead/>
                 {/* Class Start */}
                 <div id='flexo' className="class">
                     {/* <div className="containeri"> */}
@@ -1342,32 +1254,7 @@ class Flex extends Component {
                     </div>
                 </div>
                 {/* Class End */}
-                {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="befo wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containeri">
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    </div>
-                </div>
-                {/* Discount End */}
+                <Flexbottom/>
                 <Footer/>
             </div>
         );

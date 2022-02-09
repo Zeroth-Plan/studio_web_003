@@ -1,74 +1,17 @@
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
+import Photosbottom from './Photosbottom';
 import './PhotoService.css'
+import Photoshead from './Photoshead';
 
-// function serviceb(){
-//     document.getElementById('ser')
-//     .src="assets/img/event/event.jpg";
-//     document.getElementById('ser1')
-//     .src="assets/img/event/event1.jpg" ;
-//     document.getElementById('ser2')
-//     .src="assets/img/event/event2.jpg";
-//     document.getElementById('ser3')
-//     .src="assets/img/event/event3.jpg";
-//     document.getElementById('ser4')
-//     .src="assets/img/event/event4.jpg";
-//     document.getElementById('ser5')
-//     .src="assets/img/event/event5.png";
-    
-// };
-// function serviceb1(){
-//     document.getElementById('ser')
-//     .src="assets/img/product/product.jpg";
-//     document.getElementById('ser1')
-//     .src="assets/img/product/product1.jpg";
-//     document.getElementById('ser2')
-//     .src="assets/img/product/product2.jpg";
-//     document.getElementById('ser3')
-//     .src="assets/img/product/product3.jpg";
-//     document.getElementById('ser4')
-//     .src="assets/img/product/product4.jpg";
-//     document.getElementById('ser5')
-//     .src="assets/img/product/product5.jpg";
-    
-// };
-// function serviceb2(){
-//     document.getElementById('ser')
-//     .src="assets/img/wedding/wedding.jpg";
-//     document.getElementById('ser1')
-//     .src="assets/img/wedding/wedding1.jpg";
-//     document.getElementById('ser2')
-//     .src="assets/img/wedding/wedding2.jpg";
-//     document.getElementById('ser3')
-//     .src="assets/img/wedding/wedding3.jpg";
-//     document.getElementById('ser4')
-//     .src="assets/img/wedding/wedding4.jpg";
-//     document.getElementById('ser5')
-//     .src="assets/img/wedding/wedding5.jpg";
-    
-// };
+
 class Photoservice extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Page Header Start */}
-                <div className="service-header">
-                {/* <img src="assets/img/frame3.jpg" alt="Image" /> */}
-                    <div className="containeru">
-                    <div className="ron">
-                        <div className="col-12">
-                        <h2>Photography Services</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/photoservice">Photography Services</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
+                    <Photoshead/>
                 {/* Class Start */}
                 <div id='indoor' className="class">
                     <div className="container ct">
@@ -567,32 +510,8 @@ class Photoservice extends Component {
                     </div>
                 </div>
                 {/* Class End */}
-                {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="before wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containeru">
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    </div>
-                </div>
-                {/* Discount End */}
+                <Photosbottom/>
+                
                 <Footer/>
             </div>
         );

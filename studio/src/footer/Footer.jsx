@@ -12,11 +12,13 @@ class Footer extends Component {
                         <a href="index.html" className="footer-logo">
                             Mi<span>la</span>ns
                         </a>
-                        {/* <h3>123 Street, New York, USA</h3> */}
-                        {/* <div className="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div> */}
+                        {/*************/}
+                        <h3>A1, Nittambuwa</h3>
+                        <div className="footer-menu">
+                            <p>+94332289605</p>
+                            <p>milans@example.com</p>
+                        </div>
+                        {/**************/}
                         <div className="footer-social">
                             <a href>
                             <i className="fab fa-twitter" />

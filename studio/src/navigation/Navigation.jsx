@@ -7,7 +7,8 @@ class Navigation extends Component {
             <div>
                 <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                     <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand">
+                    {/* <a href="index.html" className="navbar-brand"> */}
+                    <a href="/home" className="navbar-brand">
                         Mi<span>la</span>ns
                     </a>
                     <button
@@ -23,9 +24,9 @@ class Navigation extends Component {
                         id="navbarCollapse"
                     >
                         <div className="navbar-nav ml-auto">
-                        <a href="/home" className="nav-item nav-link">
+                        {/* <a href="/home" className="nav-item nav-link">
                             Home
-                        </a>
+                        </a> */}
                         {/* <a href="/upload" className="nav-item nav-link">
                             Shop
                         </a> */}
@@ -73,9 +74,10 @@ class Navigation extends Component {
                         <a href="/about" className="nav-item nav-link">
                             About
                         </a>
-                        <a href="/login" className="nav-item nav-link">
-                            Login
+                        <a href="/login" className="nav-item nav-link fas fa-sign-in-alt">
+                            {/* Login */}
                         </a>
+                        
                         {/**************/}
                         <a className="shopping-cart" href="/cart"
                         className="nav-item nav-link fas fa-shopping-cart" >

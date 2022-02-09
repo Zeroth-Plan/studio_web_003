@@ -2,126 +2,17 @@ import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import './Laser.css'
+import Laserbottom from './Laserbottom';
+import Laserhead from './Laserhead';
 
 
-// function before(){
-//     document.getElementById('myImage')
-//     .src="assets/img/abox/abox.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/abox/abox1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/abox/abox2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/abox/abox3.jpg";
-//     document.getElementById('myImage4')
-//     .src="assets/img/abox/abox4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/abox/abox5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
-// function before2(){
-//     document.getElementById('myImage')
-//     .src="assets/img/wde/wd.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/wde/wd1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/wde/wd2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/wde/wd3.jpg";
-//     document.getElementById('myImage4')
-//     .src="assets/img/wde/wd4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/wde/wd5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
 
-// function before3(){
-//     document.getElementById('myImage')
-//     .src="assets/img/keytags/keytags.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/keytags/keytags1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/keytags/keytags2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/keytags/keytags3.jpg";
-//     document.getElementById('myImage4')
-//     .src="assets/img/keytags/keytags4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/keytags/keytags5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
-// function before4(){
-//     document.getElementById('myImage')
-//     .src="assets/img/astand/astand.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/astand/astand1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/astand/astand2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/astand/astand3.jpg";
-//     document.getElementById('myImage4')
-//     .src="assets/img/astand/astand4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/astand/astand5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
-// function before5(){
-//     document.getElementById('myImage')
-//     .src="assets/img/nb/nb.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/nb/nb1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/nb/nb2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/nb/nb3png.png";
-//     document.getElementById('myImage4')
-//     .src="assets/img/nb/nb4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/nb/nb5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
-// function before6(){
-//     document.getElementById('myImage')
-//     .src="assets/img/acrylic/acrylic.jpg";
-//     document.getElementById('myImage1')
-//     .src="assets/img/acrylic/acrylic1.jpg";
-//     document.getElementById('myImage2')
-//     .src="assets/img/acrylic/acrylic2.jpg";
-//     document.getElementById('myImage3')
-//     .src="assets/img/acrylic/acrylic3.jpg";
-//     document.getElementById('myImage4')
-//     .src="assets/img/acrylic/acrylic4.jpg";
-//     document.getElementById('myImage5')
-//     .src="assets/img/acrylic/acrylic5.jpg";
-//     document.getElementById('message')
-//     .innerHTML="Hii! GeeksforGeeks people";
-// };
 class Laser extends Component {
     render() {
         return (
             <div>
                 <Navigation/>
-                {/* Page Header Start */}
-                <div className="laser-header">
-                {/* <img src="" alt="Image" /> */}
-                    <div className="containera">
-                    <div className="ro2">
-                        <div className="col-12">
-                        <h2>Laser</h2>
-                        </div>
-                        <div className="col-12">
-                        <a href="/home">Home</a>
-                        <a href="/laser">Laser</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                {/* Page Header End */}
+                <Laserhead/>
                 {/* Class Start */}
                 <div id='trophyo' className="class">
                     {/* <div className="containera"> */}
@@ -1915,32 +1806,7 @@ class Laser extends Component {
                     </div>
                 </div>
                 {/* Class End */}
-                {/*************/}
-                {/* Discount Start */}
-                <div
-                    className="bef wow zoomIn"
-                    data-wow-delay="0.1s"
-                    style={{ marginBottom: 90 }}
-                >
-                    <div className="containera">
-                    {/* <div className="section-header text-center">
-                        <p>Awesome Discount</p>
-                        <h2>
-                        Get <span>30%</span> Discount for all Classes
-                        </h2>
-                    </div> */}
-                    {/* <div className="container discount-text">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam
-                        metus tortor, auctor id gravida condimentum, viverra quis sem.
-                        Curabitur non nisl nec nisi scelerisque maximus.
-                        </p>
-                        <a className="btn">Join Now</a>
-                    </div> */}
-                    </div>
-                </div>
-                {/* Discount End */}
+                <Laserbottom/>
                 <Footer/>
             </div>
         );
