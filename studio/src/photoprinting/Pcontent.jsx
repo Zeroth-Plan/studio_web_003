@@ -84,6 +84,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault1">
                             Normal Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -96,6 +99,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Matte Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -108,6 +114,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Glitter Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -120,6 +129,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Semi Glitter Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -132,6 +144,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Velvet Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -144,6 +159,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Glitter Curve Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -156,6 +174,9 @@ class Pcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Gloss Laminating
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/lg1.jpeg" alt="Image" />
+                            {/*************/}
                         </div>
                         </div>
                         {/******* */}

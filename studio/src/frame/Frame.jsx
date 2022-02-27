@@ -50,6 +50,17 @@ class Frame extends Component {
                         </ul>
                         </div>
                     </div>
+                    {/*********************/}
+                    <div
+                        className="section-header text-center wow zoomIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <p> A “Mount” separates the photo from the frame and adds space & focus to 
+the photograph. And do not worry we will choose the best mount color depending on 
+your photograph.</p>
+                        {/* <h2>Yoga Class Shedule</h2> */}
+                    </div>
+                    {/*********************/}
                     <div className="row class-containery">
                         <div
                         className="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp"
@@ -279,6 +290,10 @@ class Frame extends Component {
                         data-wow-delay="0.1s"
                     >
                         <p>Showing 1003 products</p>
+                        <p>Why just print? Frame it and keep it. Hang it on your wall or place it on 
+your table. A strong and matching frame will keep your precious photographs safe and 
+secure for a lifetime. Trust me! A photo frame makes the photograph looks 100 times 
+better and valuable. Hum!</p>
                         {/* <h2>Yoga Class Shedule</h2> */}
                     </div>
                     {/* <div className="row">
@@ -528,6 +543,8 @@ class Frame extends Component {
                         data-wow-delay="0.1s"
                     >
                         <p>Showing 1003 products</p>
+                        <p> You printed your photos but don’t have a place to keep them? Why not put it 
+inside an album?</p>
                         {/* <h2>Yoga Class Shedule</h2> */}
                     </div>
                     {/* <div className="row">

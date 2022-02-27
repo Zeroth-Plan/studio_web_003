@@ -26,6 +26,7 @@ import Contact from './contact/Contact';
 import Edit from './edit/Edit';
 import Flexup from './flexup/FlexUp';
 import Frameup from './frameup/FrameUp';
+import Editnew from './editnew/Editnew';
 
 
 function App() {
@@ -46,13 +47,14 @@ function App() {
           <Route exact path="/" element={<Signup/>}/>
           <Route exact path="/cart" element={<Cart/>}/>
           <Route exact path="/upload" element={<Upload/>}/>
-          <Route exact path="/photoedit" element={<Photoedit/>}/>
+          {/* <Route exact path="/photoedit" element={<Photoedit/>}/> */}
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/metal" element={<Metal/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
           <Route exact path="/edit" element={<Edit/>}/>
           <Route exact path="/flexup" element={<Flexup/>}/>
           <Route exact path="/frameup" element={<Frameup/>}/>
+          <Route exact path="/photoedit" element={<Editnew/>}/>
           
           
         </Routes>

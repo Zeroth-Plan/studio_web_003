@@ -7,7 +7,7 @@
     padding: 150px 0 90px 0;
     text-align: center;
     /* background: #F7CAC9;  */
-    background:url(../img/aboutnew.jpg);
+    background:url(../img/about.jpeg);
     object-fit:fill;
     /* background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/frame3.jpg); */
 }
@@ -22,7 +22,8 @@
 
 .about-header h2 {
     position: relative;
-    color: #f35413;
+    /* color: #f35413; */
+    color: #e3bdbd;
     font-size: 60px;
     font-weight: 700;
 }
@@ -31,7 +32,8 @@
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #343148;
+    /* color: #343148; */
+    color: #080808;
 }
 
 .about-header a:hover {
@@ -46,7 +48,8 @@
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #343148;
+    /* color: #343148; */
+    color: #080808;
 }
 
 .about-header a:last-child::after {
@@ -101,15 +104,19 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #f35413;
-    background: #343148;
+    /* color: #f35413; */
+    color: #e3bdbd;
+    /* background: #343148; */
+    background: #080808;
     border-radius: 0;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #343148;
-    background: #f35413;
+    /* color: #343148; */
+    color: #080808;
+    /* background: #f35413; */
+    background: #e3bdbd;
 }
 
 @media (max-width: 767.98px) {

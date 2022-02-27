@@ -13,6 +13,7 @@ class Home extends Component {
         return (
             
             <div>
+                
                 {/* <Header/>  */}
                 <Navigation/>
                 <Hero/>
@@ -20,7 +21,7 @@ class Home extends Component {
                 <Homeabout/>
                 <Testimonial/>
                 <Footer/>
-                 
+                
                 
             </div>
         );

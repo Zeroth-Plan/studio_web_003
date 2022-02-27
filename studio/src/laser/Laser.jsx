@@ -54,6 +54,15 @@ class Laser extends Component {
                             {/**************/}
                         </div>
                     </div>
+                    {/**********************/}
+                    <div
+                        className="section-header text-center wow zoomIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <p> A gift for someone who’s talented </p>
+                        {/* <h2>Yoga Class Shedule</h2> */}
+                    </div>
+                    {/**********************/}
                     <div className="row class-containera">
                         <div
                         className="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp"
@@ -789,6 +798,7 @@ class Laser extends Component {
                         data-wow-delay="0.1s"
                     >
                         <p>Showing 1003 products</p>
+                        <p>Someone who loves nature</p>
                         {/* <h2>Yoga Class Shedule</h2> */}
                     </div>
                     {/* <div className="row">
@@ -1046,6 +1056,7 @@ class Laser extends Component {
                         data-wow-delay="0.1s"
                     >
                         <p>Showing 1003 products</p>
+                        <p> Keep losing your keys?</p>
                         {/* <h2>Yoga Class Shedule</h2> */}
                     </div>
                     {/* <div className="row">
@@ -1560,6 +1571,7 @@ class Laser extends Component {
                         data-wow-delay="0.1s"
                     >
                         <p>Showing 1003 products</p>
+                        <p> This house belongs to me! /</p>
                         {/* <h2>Yoga Class Shedule</h2> */}
                     </div>
                     {/* <div className="row">

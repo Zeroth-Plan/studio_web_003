@@ -75,6 +75,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault1">
                             Birthday
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -87,6 +90,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Farewell
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -99,6 +105,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Anniversary
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -111,6 +120,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Promotion
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -123,6 +135,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             An Opening
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         <div className="form-check">
                             <input
@@ -135,6 +150,9 @@ class Editcontent extends Component {
                             <label className="form-check-label" htmlFor="flexRadioDefault2">
                             Other
                             </label>
+                            {/**************/}
+                            <img  className="hide" src="assets/img/birthday.jpg" alt="Image" />
+                            {/*************/}
                         </div>
                         {/* <div className="form-check">
                             <input

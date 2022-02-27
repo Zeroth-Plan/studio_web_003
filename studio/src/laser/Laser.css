@@ -7,7 +7,8 @@
     padding: 150px 0 90px 0;
     text-align: center;
     /* background: #F7CAC9;  */
-    background:url(../img/trophy.jpg);
+    /* background:url(../img/trophy.jpg); */
+    background:url(../img/trophy12.jpg);
     object-fit:fill;
     /* background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/frame3.jpg); */
 }
@@ -305,7 +306,8 @@
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg6n.png);
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg6n.png); */
+    background: linear-gradient(rgba(227,189,189, .7), rgba(227,189,189, .7)), url(../img/bg6n.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

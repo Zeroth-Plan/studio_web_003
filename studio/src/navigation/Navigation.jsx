@@ -5,12 +5,17 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <div className="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div className="navbar navbar-expand-lg bg-dark navbar-dark ">
                     <div className="container-fluid">
                     {/* <a href="index.html" className="navbar-brand"> */}
-                    <a href="/home" className="navbar-brand">
+                    {/* <a href="/home" className="navbar-brand">
                         Mi<span>la</span>ns
+                    </a> */}
+                    {/***********/}
+                    <a href="/home">
+                    <img className="milanslogo"  src="assets/img/logo black and white with artboard-01.svg" alt="Imag4" />
                     </a>
+                    {/***********/}
                     <button
                         type="button"
                         className="navbar-toggler"
@@ -27,6 +32,14 @@ class Navigation extends Component {
                         {/* <a href="/home" className="nav-item nav-link">
                             Home
                         </a> */}
+                        {/* <div className="search-container">
+                                    <form action="/action_page.php">
+                                        <input type="text" placeholder="Search.." name="search" />
+                                        <button type="submit">
+                                        <i className="fa fa-search" />
+                                        </button>
+                                    </form>
+                                    </div> */}
                         {/* <a href="/upload" className="nav-item nav-link">
                             Shop
                         </a> */}

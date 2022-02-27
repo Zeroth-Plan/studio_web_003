@@ -4,7 +4,9 @@ import './Home.css'
 class Homeabout extends Component {
     render() {
         return (
+            <section>
             <div>
+                
                 {/* About Start */}
                 <div className="about wow fadeInUp" data-wow-delay="0.1s">
                         {/* <div className="containere"> */}
@@ -46,7 +48,9 @@ class Homeabout extends Component {
                         </div>
                     </div>
                     {/* About End */} 
-            </div>
+                    
+             </div> 
+             </section>
         );
     }
 }
