@@ -1,0 +1,301 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.pagedit-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    /* background:url(../img/framew.jpg); */
+    background:url(../img/pe4.jpg);
+    object-fit:fill;
+}
+.ro5dp{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 417px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+} 
+
+/*******************************/
+/*********** Team CSS **********/
+/*******************************/
+/* .team {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.team .team-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .07);
+}
+
+.team .team-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .team-img img {
+    position: relative;
+    width: 100%;
+}
+
+.team .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team .team-social a {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #f35413;
+    background: #343148;
+    opacity: 0;
+}
+
+.team .team-social a:hover {
+    color: #343148;
+    background: #f35413;
+}
+
+
+.team .team-item:hover .team-social {
+    background: rgba(256, 256, 256, .5);
+}
+
+.team .team-item:hover .team-social a:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team .team-item:hover .team-social a:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+
+.team .team-item:hover .team-social a:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .2s;
+}
+
+.team .team-item:hover .team-social a:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .3s;
+}
+
+.team .team-text {
+    position: relative;
+    padding: 25px 15px 10px 15px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.team .team-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.team .team-text p {
+    margin: 0;
+} */
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.maina{
+    width: 100%;
+    margin-top: 20vh;
+    height:105vh;
+    /* background-color: rgba(52, 49, 72, .9); */
+    background-color: rgba(8, 8, 8, .9);
+    display: flex;
+}
+.gnnab{
+    margin-top: 10vh;
+    margin-right: 5vh;
+    width: 50%;
+    padding: 2%;
+    /* width: 60%; */
+    height: 85vh;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border:1px solid green; */
+}
+.col-12 h2{
+    color: #f35413;
+}
+.col-12{
+    color: #fff;
+}
+.droupSelec{
+    margin-top: 2vh;
+}
+
+.custom-file{
+    margin-top: 2vh;
+}
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before {
+    content: 'Uploaded image result';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+}
+
+.form-row{
+    margin-top: 2vh;
+}
+.cart{
+    margin-top: 2vh;
+    background: #343148;
+    color: #f35413;
+    width: 100%;
+}
+.cart:hover{
+    
+    background: #343148;
+    color: #fff;
+    
+}
+.imagebox {
+    margin-top: 10vh;
+    margin-left: 5vh;
+    width: 87vh;
+    /* width: 60%; */
+    height: 77vh;
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border: 1px solid black; */
+  }
+  
+  .box1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset  #f35413;
+  }
+  
+  .box2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413;
+  }
+
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.dpe {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/pp2n.png); */
+    background: linear-gradient(rgba(227,189,189, .7), rgba(227,189,189, .7)), url(../img/pp2n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dpe .containerdpe {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}
+
+
+/***********************/
+.hide {
+    display: none;
+    width: 20%;
+    height: 20%;
+    margin-left: 200px;
+    position:relative
+  }
+      
+  .form-check-label:hover + .hide {
+    display: block;
+    /* color: red; */
+  }

@@ -1,0 +1,218 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background:url(../img/cart2.jpg);
+    object-fit:fill;
+}
+.ro9{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 416px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+} 
+
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.aft {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/bg12n.png); */
+    background: linear-gradient(rgba(227,189,189, .7), rgba(227,189,189, .7)), url(../img/bg12n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aft .containerq {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}
+/*********/
+
+
+.optionbox {
+    /* position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) */
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+
+.optionbox select {
+    /* background: #E91E63; */
+    background: #343148;
+    color: #fff;
+    padding: 10px;
+    width: 79%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 5px rgb(93, 15, 9);
+    -webkit-appearance: button;
+    outline: none;
+    text-align: center;
+}
+
+/* .optionbox:before {
+    content: '\f358';
+    font-family: "Font Awesome 5 free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background: #E91E63;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    pointer-events: none
+} */
+
+.optionbox:hover:before {
+    background: #c72059
+    /* background: #343148;
+    color: #f35413; */
+} 
+/*****************/
+.fbox1{
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    border:2px inset  #f35413;
+    margin-left: 80px;
+    /* display: flex; */
+    /* margin-top: 230px; */
+}
+.maino{
+    border:2px inset  #f35413;
+    width: 60vw;
+    height: 100vh;
+    /* display:flex; */
+    margin-left: 40px;
+    padding:4%;
+    
+}
+.order{
+    padding-left: 80px;
+    
+}
+.fbox{
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    border:2px inset  #f35413;
+    margin-left: 80px;
+    
+}
+.include1{
+    
+    padding-left: 80px;
+    /* display: flex; */
+    
+}
+.include{
+    padding-left: 80px;
+    
+}
+
+.left{
+    border:2px inset  #f35413;
+    width: 30vw;
+    height: 80vh;
+    margin-left: 20px;
+    padding: 2%;
+}
+.flexf{
+    display: flex;
+    
+}
+.flexf1{
+    display: flex;
+}
+.main1{
+    display: flex;
+}
+.return2{
+    cursor: pointer;
+    display: inline-block;
+    /* margin: 5px; */
+    margin-left: 80px;
+    padding: 6px 12px;
+    color: white;
+    background: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    
+    /* background: none; */
+    border: 1px solid #343148;
+    transition: .3s;
+    width: 70%;
+}
+.return2:hover{
+    
+    color: #f35413;
+}
+.orderb{
+    width: 100%;
+    cursor: pointer;
+    /* display:flex; */
+    /* margin: 5px; */
+    margin-left: 0;
+    margin-top: 30px;
+    /* padding: 6px 12px; */
+    color: white;
+    background: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    /* background: none; */
+    border: 1px solid #343148;
+    transition: .3s;
+    
+}
+.orderb:hover{
+    
+    color: #f35413;
+}
+.paynow{
+    cursor: pointer;
+    display: inline-block;
+    /* margin: 5px; */
+    margin-left: 80px;
+    padding: 6px 12px;
+    color: white;
+    background: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    
+    /* background: none; */
+    border: 1px solid #343148;
+    transition: .3s;
+    width: 70%;
+}
+.paynow:hover{
+    color: #f35413;
+}

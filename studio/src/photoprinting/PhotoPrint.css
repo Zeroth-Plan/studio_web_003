@@ -1,0 +1,255 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.print-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    /* background:url(../img/or.jpg); */
+    background:url(../img/service1.png);
+    object-fit:fill;
+}
+.ro4{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 417px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+}
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.b {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/pp1n.png); */
+    background: linear-gradient(rgba(227,189,189, .7), rgba(227,189,189, .7)), url(../img/pp1n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.b .containero {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}
+/*************
+****************
+***********/
+.print{
+    width: 100%;
+    margin-top: 20vh;
+    height:130vh;
+    /* background-color: rgba(52, 49, 72, .9); */
+    background-color: rgba(8, 8, 8, .9);
+    /* background: linear-gradient(rgba(8, 8, 8, .9), rgba(8, 8, 8, .9)); */
+    display: flex;
+}
+.printo{
+    margin-top: 10vh;
+    margin-right: 5vh;
+    width: 50%;
+    padding: 2%;
+    /* width: 60%; */
+    /* height: 70vh; */
+    height: 110vh;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border:1px solid green; */
+}
+
+/*************/
+.imageboxe {
+    margin-top: 10vh;
+    margin-left: 5vh;
+    /* width: 80vh; */
+    width: 87vh;
+    /* width: 50%; */
+    /* height: 70vh; */
+    height: 77vh;
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border: 1px solid black; */
+  }
+  
+  .box5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset  #f35413;
+  }
+  
+  .box6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413;
+  }
+/*********************/
+.dot1 {
+    height: 30px;
+    width: 30px;
+    background-color: #fc8f6d;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .dot2 {
+    height: 30px;
+    width: 30px;
+    background-color: #e16dfc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    
+  }
+  .dot3 {
+    height: 30px;
+    width: 30px;
+    background-color: #1f7614;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .dot4 {
+    height: 30px;
+    width: 30px;
+    background-color: #29c7ea;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .dot5 {
+    height: 30px;
+    width: 30px;
+    background-color: #d03c3c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .picker{
+      padding-left: 15px;
+  }
+  
+  .one{
+      size: 10px;
+  }
+  /******************/
+  .spicker{
+      display: flex;
+      padding-left: 15px;
+  }
+  .s1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    color: #000;
+    padding: 2px  ;
+    
+  }
+  
+  .s2 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+    
+  }
+  .s3 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s4 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s5 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s6 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .s7 {
+    width: 30px;
+    height: 30px;  
+    /* padding: 50px; */
+    border: 1px solid black;
+    margin-left: 10px;
+    color: #000;
+    padding: 2px  ;
+  }
+  .two{
+    size: 10px;
+  }
+  /**************/
+  .form-check-label{
+    color:#ffff
+  }
+  .tickOption{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .cbox{
+    margin-top: 4%;
+    margin-bottom: 0;
+  }
+  .cf{
+    margin-top: 0;
+  }

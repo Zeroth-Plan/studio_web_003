@@ -1,0 +1,186 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.flexup-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    /* background:url(../img/framew.jpg); */
+    background:url(../img/flexup2.jpg);
+    object-fit:fill;
+}
+.ro5flup{
+    /* position: absolute; */
+    /* margin: auto; */
+    width: 500px;
+    height: 200px;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5); */
+    /* object-fit:fill; */
+} 
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.main{
+    width: 100%;
+    margin-top: 20vh;
+    height:90vh;
+    background-color: rgba(52, 49, 72, .9);
+    display: flex;
+}
+.gnna{
+    margin-top: 10vh;
+    margin-right: 5vh;
+    width: 50%;
+    padding: 4%;
+    
+    /* width: 60%; */
+    height: 70vh;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border:1px solid green; */
+}
+.gnna2b{
+    padding-top: 4%;
+}
+.col-12 h2{
+    color: #f35413;
+}
+.col-12f{
+    color: #fff;
+    
+}
+.droupSelec{
+    margin-top: 2vh;
+}
+
+.custom-file{
+    margin-top: 2vh;
+}
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before {
+    content: 'Uploaded image result';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+}
+
+.form-row{
+    margin-top: 2vh;
+}
+.cart{
+    margin-top: 2vh;
+    background: #343148;
+    color: #f35413;
+    width: 100%;
+}
+.cart:hover{
+    
+    background: #343148;
+    color: #fff;
+    
+}
+.imageboxpd {
+    margin-top: 10vh;
+    margin-left: 5vh;
+    width: 80vh;
+    /* width: 60%; */
+    height: 70vh;
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0,0.5);
+    /* border: 1px solid black; */
+  }
+  
+  .box1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset  #f35413;
+  }
+  
+  .box2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413 ;
+  }
+  
+  .box4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48%;
+    height: 48%;
+    border:2px inset #f35413;
+  }
+
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.dflexupload {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    padding: 90px 0;
+    /* background: linear-gradient(rgba(248,154,95, .7), rgba(248,154,95, .7)), url(../img/pdnn.png); */
+    background: linear-gradient(rgba(227,189,189, .7), rgba(227,189,189, .7)), url(../img/pdnn.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dflexupload .containerq {
+    max-width: 750px;
+    height:200px;
+    text-align: center;
+}
